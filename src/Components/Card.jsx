@@ -11,7 +11,7 @@ function Card({ project }) {
           </td>
           <td style={{ width: "100%" }}>
             <Link to={`/project/${project.id}`}>
-              <img className='image-bordered' style={{ width: "100%" }} alt='Couverture du projet' src={project.cover} />
+              <img className='image-bordered image-shadow' style={{ width: "100%" }} alt='Couverture du projet' src={project.cover} />
             </Link>
           </td>
         </tr>

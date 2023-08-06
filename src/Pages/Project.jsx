@@ -28,7 +28,7 @@ function Project() {
             </div>
             <div style={{ textAlign: "center", marginTop: 30 }}>
                 <Link to={currentDatas.urlProject} target="_blank" rel='noopener noreferrer'>
-                <img className="portfolio image-bordered" alt='Couverture de projet' src={`/${currentDatas.cover}`} />
+                <img className="portfolio image-bordered image-shadow" alt='Couverture de projet' src={`/${currentDatas.cover}`} />
                 </Link>
                 <Link style={{ display: "block", marginTop: 8 }} to={currentDatas.urlProject} target="_blank" rel='noopener noreferrer'>
                 Consulter le projet

@@ -195,6 +195,20 @@
             border-radius: 15px;
         }
 
+        .image-bordered {
+            border: solid 1px gray;
+        }
+
+        .image-shadow {
+            transition: box-shadow 0.8s;
+            box-shadow: transparent;
+        }
+
+        .image-shadow:hover {
+            transition: box-shadow 0.8s;
+            box-shadow: -6px 6px 16px grey;
+        }
+
         div.frame {
             height: fit-content;
             margin: 30px 50px;
@@ -252,10 +266,6 @@
             width: 70%;
             max-width: 475px;           
             border-radius: 10px;
-        }
-
-        .image-bordered {
-            border: solid 1px gray;
         }
 
         .display-mobile {
