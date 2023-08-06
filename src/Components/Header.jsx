@@ -4,7 +4,6 @@ import Profile1 from '../Images/profile.webp'
 
 function Header() {
     const location = useLocation()
-    console.log(location)
 
     return (
         <div>
