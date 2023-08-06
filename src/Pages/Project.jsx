@@ -1,51 +1,40 @@
 import '../Styles/Styles.css'
+import Projects from '../Datas/projects.json'
+import { useParams } from 'react-router'
+import { Link } from 'react-router-dom'
 
 function Project() {
+    const { projectId } = useParams()
+    const currentDatas = Projects.find((project) => project.id === projectId)
+
     return (
-        <div>
-            {/* HEADER */}
-            <header className="portfolio-header">
-                <div
-                className="texte-avec-ligne-verticale"
-                style={{ marginLeft: 16, marginTop: 22, height: 45 }}
-                >
-                <p className="portfolio-header-title">Rafik Ben Sadi</p>
-                </div>
-                <a
-                className="contact-button contact-button-portfolio"
-                href="mailto:rafikbensadi@live.fr?subject=Contact%20depuis%20rafikbensadi.com"
-                >
-                ME CONTACTER
-                </a>
-            </header>
-            <main>
-                {/* SECTION GRISE TITRE */}
-                <div className="section section-grise1" style={{ paddingTop: 20 }}>
-                <a className="portfolio-back" href="/">
-                    Retour
-                </a>
-                <div className="separateur" style={{ marginTop: "-12px" }} />
-                <h1 className="portfolio">Portfolio</h1>
-                <h2 className="portfolio">Titre à remplacer</h2>
-                </div>
-                {/* SECTION CONTENU */}
-                <div className="section">
-                <div className="texte-avec-ligne-verticale">
-                    Description
-                    <br />
-                    <br />
-                    <u>Technologies utilisées</u> : <b>Technologies</b>
-                </div>
-                <div style={{ textAlign: "center", marginTop: 30 }}>
-                    <a href="#">
-                    <img className="portfolio" alt='Couverture de projet' src="#" />
-                    </a>
-                    <a style={{ display: "block", marginTop: 8 }} href="#">
-                    Consulter le projet
-                    </a>
-                </div>
-                </div>
-            </main>
+        <div>            
+            {/* SECTION GRISE TITRE */}
+            <div className="section section-grise1" style={{ paddingTop: 20 }}>
+            <a className="portfolio-back" href="/">
+                Retour
+            </a>
+            <div className="separateur" style={{ marginTop: "-12px" }} />
+            <h1 className="portfolio">Portfolio</h1>
+            <h2 className="portfolio">{currentDatas.title}</h2>
+            </div>
+            {/* SECTION CONTENU */}
+            <div className="section">
+            <div className="texte-avec-ligne-verticale">
+                {currentDatas.description}
+                <br />
+                <br />
+                <u>Technologies utilisées</u> : <b>{currentDatas.technologies}</b>
+            </div>
+            <div style={{ textAlign: "center", marginTop: 30 }}>
+                <Link to={currentDatas.urlProject} target="_blank" rel='noopener noreferrer'>
+                <img className="portfolio image-bordered" alt='Couverture de projet' src={`/${currentDatas.cover}`} />
+                </Link>
+                <Link style={{ display: "block", marginTop: 8 }} to={currentDatas.urlProject} target="_blank" rel='noopener noreferrer'>
+                Consulter le projet
+                </Link>
+            </div>
+            </div>
         </div>
     )
 }

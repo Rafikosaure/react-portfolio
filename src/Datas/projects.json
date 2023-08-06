@@ -1,10 +1,10 @@
 [
 	{
 		"id": "c67ab8a7",
-		"shortTitle": "Site web pour un restaurant",
+		"shortTitle": "Site web d'un restaurant",
 		"title": "Site web de Pizza Mama, restaurant de pizzas",
 		"cover": "Images/pizzamama.webp",
-		"description": "Ce site Web a été ma première expérience en développement côté serveur, et le langage utilisé ici est le Python. Conçu avec le framework Django, il dispose d'une base de données locale recensant les meilleures pizzas de chez <i>Pizza Mama</i>, la pizzeria qu'il vous faut pour vos soirées entre amis ! Plus serieusement, le système utilisé par Django est simple : pour chaque page est créée une application, avec son propre modèle de données. Puis ce modèle sert à établir la structure des données enregistrées, selon le paradigme de la programmation orientée objet, afin d'effectuer les opérations de création, d'affichage ou de suppression des données. Ici, les objets sont simplement des pizzas, et le modèle de données inclue donc pour chaque pizza un nom, des ingrédients, un prix et enfin un tag qui précise si la pizza est ou non végétarienne.",
+		"description": "Ce site Web a été ma première expérience en développement côté serveur, et le langage utilisé ici est le Python. Conçu avec le framework Django, il dispose d'une base de données locale recensant les meilleures pizzas de chez Pizza Mama, la pizzeria qu'il vous faut pour vos soirées entre amis ! Plus serieusement, le système utilisé par Django est simple : pour chaque page est créée une application, avec son propre modèle de données. Puis ce modèle sert à établir la structure des données enregistrées, selon le paradigme de la programmation orientée objet, afin d'effectuer les opérations de création, d'affichage ou de suppression des données. Ici, les objets sont simplement des pizzas, et le modèle de données inclue donc pour chaque pizza un nom, des ingrédients, un prix et enfin un tag qui précise si la pizza est ou non végétarienne.",
 		"technologies": "HTML5, CSS3, PYTHON, DJANGO, PYCHARM.",
 		"urlProject": "#"
 	},

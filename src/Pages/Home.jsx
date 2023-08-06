@@ -1,39 +1,14 @@
 import '../Styles/Styles.css'
-import Profile1 from '../Images/profile.webp'
 import Profile2 from '../Images/profile2.webp'
 import Card from '../Components/Card'
 import projects from '../Datas/projects.json'
+import { Link } from 'react-router-dom'
 
 function Home() {
     return (
         <div>
             {/* COUVERTURE */}
-            <header className="cover">
-                <img className="cover-profile" alt='Profil de Rafik Ben Sadi' src={Profile1} />
-                <h1>Rafik Ben Sadi</h1>
-                <p className="cover-description">
-                Développeur Web &amp; Web Mobile | Javascript - React - Node JS - Express
-                JS - Python - Django
-                </p>
-                <div style={{ textAlign: "center" }}>
-                <a
-                    className="contact-button"
-                    href="mailto:rafikbensadi@live.fr?subject=Contact%20depuis%20rafikbensadi.com"
-                >
-                    ME CONTACTER
-                </a>
-                </div>
-                <div className="cover-contact">
-                <p>
-                    <a href="mailto:rafikbensadi@live.fr?subject=Contact%20depuis%20rafikbensadi.com">
-                    rafikbensadi@live.fr
-                    </a>
-                </p>
-                <p>
-                    <a href="tel:+33649363839">06 49 36 38 39</a>
-                </p>
-                </div>
-            </header>
+
             <main>
                 {/* SECTION GRISE 1 */}
                 <div className="section section-grise1">
@@ -72,7 +47,7 @@ function Home() {
                         dont vous pouvez avoir un bel aperçu dans la section Portfolio qui
                         suit.
                     </p>
-                    <a href='#'>En savoir plus sur mon profil</a>
+                    <Link to='#'>En savoir plus sur mon profil</Link>
                     </div>
                 </div>
                 </div>

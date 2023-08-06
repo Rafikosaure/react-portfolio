@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../Styles/Styles.css';
 
 function Card({ project }) {
@@ -9,15 +10,15 @@ function Card({ project }) {
             <div className="barre-verticale" />
           </td>
           <td style={{ width: "100%" }}>
-            <a href="#">
+            <Link to={`/project/${project.id}`}>
               <img className='image-bordered' style={{ width: "100%" }} alt='Couverture du projet' src={project.cover} />
-            </a>
+            </Link>
           </td>
         </tr>
         <tr>
           <td />
           <td align="center">
-            <a href='#'>{project.shortTitle}</a>
+            <Link to={`/project/${project.id}`}>{project.shortTitle}</Link>
           </td>
         </tr>
       </tbody>
