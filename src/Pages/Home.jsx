@@ -106,6 +106,9 @@ function Home() {
                         </ul>
                     </div>
                 </div>
+                <div className='div-citation'>
+                “Un bon programmeur est quelqu’un qui regarde toujours des deux côtés avant de traverser une rue à sens unique.”<br/>- Doug Linder, historien et créateur de "famous-trials.com"
+                </div>
                 {/* SECTION GRISE 2 */}
                 <div className="section section-grise2">
                     <h2 id='portfolio'>Portfolio</h2>
