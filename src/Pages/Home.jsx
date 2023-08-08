@@ -78,7 +78,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="div-competences">
-                    <h2>Mes Compétences</h2>
+                    <h2 className='title-competences-section'>Mes Compétences</h2>
                     <div className='div-competences-orientation'>
                         <ul>
                             <h3 className='competences-title'>Frontend</h3>

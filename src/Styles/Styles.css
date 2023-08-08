@@ -178,6 +178,10 @@
             margin-top: 70px;
         }
 
+        .title-competences-section {
+            background-color: var(--color2);
+        }
+
         .div-competences-orientation {
             display: flex;
             justify-content: center;
