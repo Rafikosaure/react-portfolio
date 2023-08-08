@@ -42,7 +42,7 @@
 		"cover": "Images/kasa_location_immobiliere.webp",
 		"description": "Kasa, leader depuis près de 10 ans de la location d'appartements entre particuliers en France a fait appel à mes services de développeur frontend afin de développer leur nouvelle plateforme Web. Ce projet a été particulièrement enrichissant pour moi, car il m'a permis d'acquérir la maîtrise de l'un des frameworks frontend les plus populaires sur le marché mondial : ReactJS. Qui plus est, ce projet m'a également servi de terrain d'expérimentation pour d'autres technologies, liées au CSS (c'est à dire pour styliser le contenu du site Web) comme SASS, la convention BEM ou encore les animations CSS avec la propriété transform. Le résultat ? Un site ergonomique, adapté à toutes les tailles d'écran, avec une excellente expérience utilisateur.",
 		"technologies": "HTML5, CSS3, SASS, FIGMA, REACTJS.",
-		"urlProject": "#"
+		"urlProject": "https://kasa-blue.vercel.app/"
 	},
 	{
 		"id": "f72a452f",
