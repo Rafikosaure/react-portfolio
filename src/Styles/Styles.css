@@ -145,13 +145,14 @@
         }
 
         img.col-contenu {
-            width: 40%;
+            width: 31%;
             border-radius: 15px;
+            border: 5px solid #656565;
         }
 
         div.col-contenu {
-            width: 60%;
-            padding-left: 16px;
+            width: 69%;
+            padding-left: 40px;
         }
 
         .float-right {
