@@ -29,7 +29,7 @@ function Project() {
                 </div>
                 <div style={{ textAlign: 'center', marginTop: 30 }}>
                     <Link
-                        to={currentDatas.urlProject}
+                        to={currentDatas.urlSite}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -41,11 +41,19 @@ function Project() {
                     </Link>
                     <Link
                         style={{ display: 'block', marginTop: 8 }}
-                        to={currentDatas.urlProject}
+                        to={currentDatas.urlSite}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Consulter le projet
+                        Voir le site
+                    </Link>
+                    <Link
+                        style={{ display: 'block', marginTop: 8 }}
+                        to={currentDatas.urlRepo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Consulter le code du projet
                     </Link>
                 </div>
             </div>

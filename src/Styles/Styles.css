@@ -171,6 +171,40 @@
 
         .texte-profile-description {
             line-height: 30px;
+            text-align: justify;
+        }
+
+        .div-competences {
+            margin-top: 70px;
+        }
+
+        .div-competences-orientation {
+            display: flex;
+            justify-content: center;
+            gap: 10%;
+            font-size: 20px;
+            padding-left: 0;
+            flex-wrap: wrap;
+        }
+
+        .competences-title {
+            font-style: italic;
+            margin-bottom: 40px;
+        }
+
+        .list-item-competence {
+            list-style-type: none;
+            margin-bottom: 28px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            min-width: 250px;
+        }
+
+        .list-icon {
+            width: 40px;
+            height: 40px;
+            margin-right: 16px;
         }
 
         div.barre-verticale {
@@ -312,6 +346,11 @@
                 width: 100%;
                 padding-left: 0px;
                 margin-top: 20px;
+            }
+
+            .div-competences-orientation {
+                flex-direction: column;
+                align-items: center;
             }
 
             .col-portfolio {

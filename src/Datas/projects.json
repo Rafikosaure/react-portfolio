@@ -6,7 +6,8 @@
 		"cover": "Images/pizzamama.webp",
 		"description": "Ce site Web a été ma première expérience en développement côté serveur, et le langage utilisé ici est le Python. Conçu avec le framework Django, il dispose d'une base de données locale recensant les meilleures pizzas de chez Pizza Mama, la pizzeria qu'il vous faut pour vos soirées entre amis ! Plus serieusement, le système utilisé par Django est simple : pour chaque page est créée une application, avec son propre modèle de données. Puis ce modèle sert à établir la structure des données enregistrées, selon le paradigme de la programmation orientée objet, afin d'effectuer les opérations de création, d'affichage ou de suppression des données. Ici, les objets sont simplement des pizzas, et le modèle de données inclue donc pour chaque pizza un nom, des ingrédients, un prix et enfin un tag qui précise si la pizza est ou non végétarienne.",
 		"technologies": "HTML5, CSS3, PYTHON, DJANGO, PYCHARM.",
-		"urlProject": "#"
+		"urlSite": "#",
+		"urlRepo": "https://github.com/Rafikosaure/pizza-mama"
 	},
 	{
 		"id": "b9123946",
@@ -15,7 +16,8 @@
 		"cover": "Images/booki_project.webp",
 		"description": "Ce projet a consisté en l'intégration de la page d'accueil de l'agence de voyage Booki. Le logiciel de design collaboratif en ligne Figma a été utilisé pour la maquette. Parfaitement respectueux de la sémantique du Web, il est une magnifique démonstration de ce qui se fait de mieux en HTML5 et CSS3 à l'heure actuelle. Conforme aux attentes exigées par le World Wide Web Consortium, il est parfaitement adapté à toutes les tailles d'écran (desktop, tablette et mobile) grâce à sa conception respectueuse du Responsive Design. Il reprend les dernières normes du HTML5 telles que la structuration Header/Main/Footer, ainsi que du CSS3 avec l'usage des boîtes flexibles pour le positionnement des éléments.",
 		"technologies": "HTML5, CSS3, FLEXBOX, FIGMA, icones FONT-AWESOME.",
-		"urlProject": "https://rafikosaure.github.io/booki-agence-de-voyage/"
+		"urlSite": "https://rafikosaure.github.io/booki-agence-de-voyage/",
+		"urlRepo": "https://github.com/Rafikosaure/booki-agence-de-voyage"
 	},
 	{
 		"id": "46d188c5",
@@ -24,7 +26,8 @@
 		"cover": "Images/sophie_bluel_architecte_d_interieur.webp",
 		"description": "Ce site est le portfolio en ligne de l'architecte d'intérieur Sophie Bluel. Sa réalisation a été pour moi un vrai rite de passage puisqu'il m'a initié au langage Javascript, incontournable pour tout développeur frontend (c'est à dire qui travaille sur le rendu visible du site dans la fenêtre du navigateur Web). Ce projet comporte une galerie d'images que l'on peut filtrer par catégorie, une interface connecté/déconnecté fonctionnant via un formulaire de connexion, et même une boîte modale pour ajouter ou supprimer des images (disponible en mode connecté uniquement). Ce projet m'a également initié au traitement de données récupérées depuis une API, ce qui est une compétence fondamentale pour tout développeur Web qui se respecte !",
 		"technologies": "HTML5, CSS3, JAVASCRIPT, FIGMA, API, NODE.JS.",
-		"urlProject": "#"
+		"urlSite": "#",
+		"urlRepo": "https://github.com/Rafikosaure/sophie-bluel-architecte-interieur"
 	},
 	{
 		"id": "0979876d",
@@ -33,7 +36,8 @@
 		"cover": "Images/nina_carducci_photographe.webp",
 		"description": "Le site Web de la photographe Nina Carducci existait déjà lorsque j'ai été sollicité pour ce projet : il s'agissait ici de débugguer le site et de l'optimiser pour son référencement sur les moteurs de recherche. Durant cette nouvelle mission, j'ai mis en place des outils et techniques pour que ce site soit le mieux classé possible dans les résultats de Google et qu'il soit, de manière plus générale, mieux visible sur le Web. J'ai fait en sorte qu'il soit autant accessible pour les personnes souffrant de handicaps que pour celles qui n'en souffrent pas. J'ai travaillé à ce que les bonnes pratiques de conception soient appliquées de manière à améliorer le SEO ainsi que les performances générales du site, par exemple en allégeant au maxmimum les images du site tout en gardant une qualité qui fasse honneur au travail de Nina.",
 		"technologies": "LIGHTHOUSE, WAVE, HEADINGSMAP, CHROME DEV TOOLS, COMPRESSOR.IO, MINIFY JS ONLINE, MINIFY CSS, entre autres.",
-		"urlProject": "https://rafikosaure.github.io/nina-carducci-photographe-pro/"
+		"urlSite": "https://rafikosaure.github.io/nina-carducci-photographe-pro/",
+		"urlRepo": "https://github.com/Rafikosaure/nina-carducci-photographe-pro"
 	},
 	{
 		"id": "7af00cd6",
@@ -42,7 +46,8 @@
 		"cover": "Images/kasa_location_immobiliere.webp",
 		"description": "Kasa, leader depuis près de 10 ans de la location d'appartements entre particuliers en France a fait appel à mes services de développeur frontend afin de développer leur nouvelle plateforme Web. Ce projet a été particulièrement enrichissant pour moi, car il m'a permis d'acquérir la maîtrise de l'un des frameworks frontend les plus populaires sur le marché mondial : ReactJS. Qui plus est, ce projet m'a également servi de terrain d'expérimentation pour d'autres technologies, liées au CSS (c'est à dire pour styliser le contenu du site Web) comme SASS, la convention BEM ou encore les animations CSS avec la propriété transform. Le résultat ? Un site ergonomique, adapté à toutes les tailles d'écran, avec une excellente expérience utilisateur.",
 		"technologies": "HTML5, CSS3, SASS, FIGMA, REACTJS.",
-		"urlProject": "https://kasa-blue.vercel.app/"
+		"urlSite": "https://kasa-blue.vercel.app/",
+		"urlRepo": "https://github.com/Rafikosaure/kasa-location-appartement-entre-particuliers"
 	},
 	{
 		"id": "f72a452f",
@@ -51,6 +56,7 @@
 		"cover": "Images/mon_vieux_grimoire.webp",
 		"description": "Le site Mon Vieux Grimoire est l'idée d'une association de libraires lillois désirant un site Web où des lecteurs pourraient partager leurs tendances et leurs avis sur des ouvrages. Qu'à cela ne tienne : Mon Vieux Grimoire permet donc de créer un compte utilisateur, d'ajouter des livres à la base de données et, bien sûr, de leur attribuer une note sur 5 visible par l'ensemble des internautes. La partie frontent de ce projet est l'œuvre d'un ami. Ma tâche a été de mettre en place le backend du site, c'est à dire l'ensemble des routes permettant les fonctionnalités d'inscription et de connexion au site, ainsi que les fonctionnalités de lecture, de création, de mise à jour, de suppression de livres, d'attribution des notes et de calcul des moyennes des notes. J'ai également eu avec ce projet l'opportunité de m'initier au GreenIT en travaillant sur les images utilisées pour les couvertures des livres (redimensionnement et export vers le format .webp). Enfin, j'ai également mis en place tout le système de sécurité de la base de données et du serveur.",
 		"technologies": "NODE.JS, EXPRESS, MONGODB ATLAS, MONGOOSE, JSONWEBTOKEN, BCRYPT, MULTER, SHARP.",
-		"urlProject": "#"
+		"urlSite": "#",
+		"urlRepo": "https://github.com/Rafikosaure/mon-vieux-grimoire-notation-de-livres"
 	}
 ]
