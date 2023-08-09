@@ -152,7 +152,8 @@
 
         div.col-contenu {
             width: 69%;
-            padding-left: 40px;
+            padding-left: 30px;
+            padding-right: 30px;
         }
 
         .float-right {
@@ -173,6 +174,12 @@
         .texte-profile-description {
             line-height: 30px;
             text-align: justify;
+        }
+
+        .linkedin-link {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
         }
 
         .div-competences {
@@ -362,6 +369,7 @@
             div.col-contenu {
                 width: 100%;
                 padding-left: 0px;
+                padding-right: 8px;
                 margin-top: 20px;
             }
 

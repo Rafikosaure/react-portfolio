@@ -15,6 +15,7 @@ import React from '../Images/react.svg'
 import SQL from '../Images/sql.png'
 import VSC from '../Images/vsc.svg'
 import Windows from '../Images/windows.png'
+import LinkedIn from '../Images/linkedin.svg'
 import Card from '../Components/Card'
 import projects from '../Datas/projects.json'
 import { Link } from 'react-router-dom'
@@ -73,7 +74,8 @@ function Home() {
                                 nombre de <b><i>projets Web et Web mobile</i></b>, dont vous
                                 pouvez avoir <a href='#portfolio'>un aperçu ici</a>.
                             </p>
-                            <Link to="#">En savoir plus sur mon profil</Link>
+                            <Link className='linkedin-link' to="https://www.linkedin.com/in/rafikbensadi" target="_blank"
+                        rel="noopener noreferrer"><img className='list-icon' src={LinkedIn} alt='Icone API'/>Consulter mon profil LinkedIn</Link>
                         </div>
                     </div>
                 </div>
