@@ -63,7 +63,7 @@ function Home() {
                                 Au fil de mon parcours dans le développement,
                                 j'ai réalisé de nombreux projets très divers :
                                 des programmes simples en mode console, par
-                                exemple le "Jeu de Maths" pour les écoliers
+                                exemple le <b><i>Jeu de Maths</i></b> pour les écoliers
                                 ayant besoin de réviser leurs maths avant un
                                 contrôle. J'ai également réalisé des programmes
                                 plus complexes comme des <b><i>logiciels desktop</i></b>, à
