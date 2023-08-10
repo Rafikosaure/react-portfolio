@@ -50,28 +50,28 @@ function Home() {
                                 passionné par les technologies numériques depuis
                                 l'enfance, j'ai fait mes premières armes en
                                 programmation à 10 ans en apprenant par moi-même
-                                les bases du <b><i>langage C</i></b> grâce à des ouvrages
+                                les bases du <strong>langage C</strong> grâce à des ouvrages
                                 dénichés dans la bibliothèque paternelle. Après
                                 un parcours universitaire d'historien-chercheur,
                                 j'ai décidé de me reconvertir dans le
                                 développement informatique en suivant les cours
-                                sur le <b><i>langage Python</i></b> de Jonathan Roux sur
+                                sur le <strong>langage Python</strong> de Jonathan Roux sur
                                 Udemy.com. Enfin, je me suis spécialisé dans le
                                 développement Web en suivant le parcours
-                                diplomant d'<b><i>OpenClassrooms.com</i></b> (anciennement
+                                diplomant d'<strong>OpenClassrooms.com</strong> (anciennement
                                 Site du Zéro). <br />
                                 Au fil de mon parcours dans le développement,
                                 j'ai réalisé de nombreux projets très divers :
                                 des programmes simples en mode console, par
-                                exemple le <b><i>Jeu de Maths</i></b> pour les écoliers
+                                exemple le <strong>Jeu de Maths</strong> pour les écoliers
                                 ayant besoin de réviser leurs maths avant un
                                 contrôle. J'ai également réalisé des programmes
-                                plus complexes comme des <b><i>logiciels desktop</i></b>, à
-                                l'image de <b><i>MrBeat</i></b>, une boîte à rythmes
-                                digitale, ou de <b><i>Galaxy</i></b>, un jeu vidéo de
+                                plus complexes comme des <strong>logiciels desktop</strong>, à
+                                l'image de <strong>MrBeat</strong>, une boîte à rythmes
+                                digitale, ou de <strong>Galaxy</strong>, un jeu vidéo de
                                 parcours d'un vaisseau spatial en 3D
                                 isométrique. Enfin, j'ai réalisé un certain
-                                nombre de <b><i>projets Web et Web mobile</i></b>, dont vous
+                                nombre de <strong>projets Web et Web mobile</strong>, dont vous
                                 pouvez avoir <a href='#portfolio'>un aperçu ici</a>.
                             </p>
                             <Link className='linkedin-link' to="https://www.linkedin.com/in/rafikbensadi" target="_blank"
