@@ -28,8 +28,31 @@ function Project() {
                     <b>{currentDatas.technologies}</b>
                 </div>
                 <div style={{ textAlign: 'center', marginTop: 30 }}>
-                    <Link
-                        to={currentDatas.urlSite}
+                    {currentDatas.urlSite !== "#" ? (
+                        <div>
+                            <Link
+                                to={currentDatas.urlSite}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img
+                                    className="portfolio image-bordered image-shadow"
+                                    alt="Couverture de projet"
+                                    src={`/${currentDatas.cover}`}
+                                />
+                            </Link>
+                            <Link
+                                style={{ display: 'block', marginTop: 8 }}
+                                to={currentDatas.urlSite}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Voir le site
+                            </Link>
+                        </div>
+                    ) : (
+                        <Link
+                        to={currentDatas.urlRepo}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -39,14 +62,8 @@ function Project() {
                             src={`/${currentDatas.cover}`}
                         />
                     </Link>
-                    <Link
-                        style={{ display: 'block', marginTop: 8 }}
-                        to={currentDatas.urlSite}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Voir le site
-                    </Link>
+                    )}
+                    
                     <Link
                         style={{ display: 'block', marginTop: 8 }}
                         to={currentDatas.urlRepo}
