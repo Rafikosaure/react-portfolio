@@ -16,6 +16,9 @@ import SQL from '../Images/sql.png'
 import VSC from '../Images/vsc.svg'
 import Windows from '../Images/windows.png'
 import LinkedIn from '../Images/linkedin.svg'
+import Sass from '../Images/sass.svg'
+import Github from '../Images/github.svg'
+import Figma from '../Images/figma.svg'
 import Card from '../Components/Card'
 import projects from '../Datas/projects.json'
 import { Link } from 'react-router-dom'
@@ -85,10 +88,11 @@ function Home() {
                         <ul>
                             <h3 className='competences-title'>Frontend</h3>
                             <li className='list-item-competence'><img className='list-icon' src={Html5} alt='Icone HTML5'/>HTML5</li>
-                            <li className='list-item-competence'><img className='list-icon' src={Css3} alt='Icone CSS3'/>CSS3 / SASS</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Css3} alt='Icone CSS3'/>CSS3</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Sass} alt='Icone SASS'/>SASS</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Figma} alt='Icone Figma'/>Figma</li>
                             <li className='list-item-competence'><img className='list-icon' src={Javascript} alt='Icone Javascript'/>Javascript</li>
                             <li className='list-item-competence'><img className='list-icon' src={React} alt='Icone ReactJS'/>React JS</li>
-                            <li className='list-item-competence'><img className='list-icon' src={Python} alt='Icone Python'/>Python</li>
                         </ul>
                         <ul>
                             <h3 className='competences-title'>Backend</h3>
@@ -96,15 +100,17 @@ function Home() {
                             <li className='list-item-competence'><img className='list-icon' src={MongoDB} alt='Icone MongoDB'/>MongoDB</li>
                             <li className='list-item-competence'><img className='list-icon' src={NodeJS} alt='Icone NodeJS'/>Node JS</li>
                             <li className='list-item-competence'><img className='list-icon' src={Express} alt='Icone ExpressJS'/>Express JS</li>
-                            <li className='list-item-competence'><img className='list-icon' src={Django} alt='Icone Django'/>Django</li>                           
+                            <li className='list-item-competence'><img className='list-icon' src={Python} alt='Icone Python'/>Python</li> 
+                            <li className='list-item-competence'><img className='list-icon' src={Django} alt='Icone Django'/>Django</li>      
                         </ul>
                         <ul>
                             <h3 className='competences-title'>Divers</h3>
                             <li className='list-item-competence'><img className='list-icon' src={Api} alt='Icone API'/>API</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Github} alt='Icone Github'/>Github</li>
                             <li className='list-item-competence'><img className='list-icon' src={Linux} alt='Icone Linux'/>Linux</li>
                             <li className='list-item-competence'><img className='list-icon' src={Windows} alt='Icone Windows'/>Windows</li>
-                            <li className='list-item-competence'><img className='list-icon' src={PyCharm} alt='Icone PyCharm'/>PyCharm</li>
                             <li className='list-item-competence'><img className='list-icon' src={VSC} alt='Icone Visual Studio Code'/>Visual Studio Code</li>
+                            <li className='list-item-competence'><img className='list-icon' src={PyCharm} alt='Icone PyCharm'/>PyCharm</li>
                         </ul>
                     </div>
                 </div>
