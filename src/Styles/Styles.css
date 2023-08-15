@@ -276,7 +276,7 @@
             box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
         }
 
-        p.frame-title {
+        h2.frame-title {
             font-size: 30px;
             margin-top: 5px;
             margin-bottom: 20px;

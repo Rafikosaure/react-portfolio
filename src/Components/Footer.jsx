@@ -10,7 +10,7 @@ function Footer() {
                     style={{ marginBottom: 15 }}
                 />
                 <div className="frame">
-                    <p className="frame-title">Parlons de votre projet</p>
+                    <h2 className="frame-title">Parlons de votre projet</h2>
                     <table style={{ width: '100%' }}>
                         <tbody>
                             <tr>
