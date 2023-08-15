@@ -87,21 +87,21 @@ function Home() {
                     <div className='div-competences-orientation'>
                         <ul>
                             <h3 className='competences-title'>Frontend</h3>
+                            <li className='list-item-competence'><img className='list-icon' src={React} alt='Icone ReactJS'/>React JS</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Javascript} alt='Icone Javascript'/>Javascript</li>
                             <li className='list-item-competence'><img className='list-icon' src={Html5} alt='Icone HTML5'/>HTML5</li>
                             <li className='list-item-competence'><img className='list-icon' src={Css3} alt='Icone CSS3'/>CSS3</li>
                             <li className='list-item-competence'><img className='list-icon' src={Sass} alt='Icone SASS'/>SASS</li>
                             <li className='list-item-competence'><img className='list-icon' src={Figma} alt='Icone Figma'/>Figma</li>
-                            <li className='list-item-competence'><img className='list-icon' src={Javascript} alt='Icone Javascript'/>Javascript</li>
-                            <li className='list-item-competence'><img className='list-icon' src={React} alt='Icone ReactJS'/>React JS</li>
                         </ul>
                         <ul>
                             <h3 className='competences-title'>Backend</h3>
                             <li className='list-item-competence'><img className='list-icon' src={SQL} alt='Icone SQL'/>SQL</li>
                             <li className='list-item-competence'><img className='list-icon' src={MongoDB} alt='Icone MongoDB'/>MongoDB</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Python} alt='Icone Python'/>Python</li> 
+                            <li className='list-item-competence'><img className='list-icon' src={Django} alt='Icone Django'/>Django</li>
                             <li className='list-item-competence'><img className='list-icon' src={NodeJS} alt='Icone NodeJS'/>Node JS</li>
                             <li className='list-item-competence'><img className='list-icon' src={Express} alt='Icone ExpressJS'/>Express JS</li>
-                            <li className='list-item-competence'><img className='list-icon' src={Python} alt='Icone Python'/>Python</li> 
-                            <li className='list-item-competence'><img className='list-icon' src={Django} alt='Icone Django'/>Django</li>      
                         </ul>
                         <ul>
                             <h3 className='competences-title'>Divers</h3>
