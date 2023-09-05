@@ -44,7 +44,7 @@ function Home() {
                     <img
                         src={Profile2}
                         alt="Rafik Ben Sadi en train de travailler"
-                        className="col-contenu"
+                        className="col-contenu image-shadow"
                     />
                     <div className="col-contenu float-right">
                         <div className="texte-avec-ligne-verticale">
