@@ -51,17 +51,13 @@ function Project() {
                             </Link>
                         </div>
                     ) : (
-                        <Link
-                        to={currentDatas.urlRepo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                        
                         <img
                             className="portfolio image-bordered image-shadow"
                             alt="Couverture de projet"
                             src={`/${currentDatas.cover}`}
                         />
-                    </Link>
+                    
                     )}
                     
                     <Link
