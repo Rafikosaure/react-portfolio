@@ -82,9 +82,20 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="div-competences">
-                    <h2 className='title-competences-section'>Mes Compétences</h2>
-                    <div className='div-competences-orientation'>
+                {/* SECTION GRISE 2 */}
+                <div className="section section-grise2">
+                    <div className='div-citation'>
+                    “Un bon programmeur est quelqu’un qui regarde toujours des deux côtés avant de traverser une rue à sens unique.”<br/>- Doug Linder, historien et créateur de "famous-trials.com"
+                    </div>
+                </div>
+                {/* SECTION GRISE 1 */}
+                <div className="section section-grise1">
+                </div>
+                {/* SECTION BLANCHE */}
+                <div className="section">
+                    <div>
+                        <h2>Mes Compétences</h2>
+                        <div className='div-competences-orientation'>
                         <ul>
                             <h3 className='competences-title'>Frontend</h3>
                             <li className='list-item-competence'><img className='list-icon' src={React} alt='Icone ReactJS'/>React JS</li>
@@ -114,9 +125,8 @@ function Home() {
                         </ul>
                     </div>
                 </div>
-                <div className='div-citation'>
-                “Un bon programmeur est quelqu’un qui regarde toujours des deux côtés avant de traverser une rue à sens unique.”<br/>- Doug Linder, historien et créateur de "famous-trials.com"
                 </div>
+                
                 {/* SECTION GRISE 2 */}
                 <div className="section section-grise2">
                     <h2 id='portfolio'>Portfolio</h2>
@@ -126,6 +136,7 @@ function Home() {
                         ))}
                     </div>
                 </div>
+                <div className='linear-gradient'></div>
             </main>
         </div>
     )

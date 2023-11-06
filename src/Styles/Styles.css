@@ -183,14 +183,6 @@
             align-items: center;
         }
 
-        .div-competences {
-            margin-top: 70px;
-        }
-
-        .title-competences-section {
-            background-color: var(--color2);
-        }
-
         .div-competences-orientation {
             display: flex;
             justify-content: center;
@@ -223,12 +215,13 @@
         .div-citation {
             display: flex;
             justify-content: center;
-            margin-top: 130px;
-            margin-bottom: 60px;
+            margin-top: 110px;
+            margin-bottom: 40px;
             margin-left: 50px;
             margin-right: 50px;
             font-size: 30px;
             font-style: italic;
+            font-weight: bold;
             color: #454545;
         }
 
@@ -316,6 +309,11 @@
             margin-bottom: 0;
         }
 
+        #portfolio {
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+
         a.portfolio-back {
             color: var(--color1);
             margin-left: -10px;
@@ -325,6 +323,11 @@
             width: 70%;
             max-width: 475px;           
             border-radius: 10px;
+        }
+
+        .linear-gradient {
+            height: 40px;
+            background: linear-gradient(var(--color2), white);
         }
 
         .display-mobile {
@@ -385,7 +388,7 @@
 
             .div-citation {
                 font-size: 20px;
-                margin-top: 70px;
+                margin-top: 0;
                 margin-bottom: 0;
             }
 
@@ -427,6 +430,10 @@
     
             h2.portfolio {
                 font-size: 22px;
+            }
+
+            #portfolio {
+                margin-top: 0;
             }
 
             img.portfolio {
