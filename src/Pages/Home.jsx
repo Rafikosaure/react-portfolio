@@ -19,6 +19,9 @@ import LinkedIn from '../Images/linkedin.svg'
 import Sass from '../Images/sass.svg'
 import Github from '../Images/github.svg'
 import Figma from '../Images/figma.svg'
+import Git from '../Images/git.svg'
+import Bootstrap from '../Images/bootstrap.svg'
+import Docker from '../Images/docker.svg'
 import Card from '../Components/Card'
 import projects from '../Datas/projects.json'
 import { Link } from 'react-router-dom'
@@ -102,6 +105,7 @@ function Home() {
                             <li className='list-item-competence'><img className='list-icon' src={Javascript} alt='Icone Javascript'/>Javascript</li>
                             <li className='list-item-competence'><img className='list-icon' src={Html5} alt='Icone HTML5'/>HTML5</li>
                             <li className='list-item-competence'><img className='list-icon' src={Css3} alt='Icone CSS3'/>CSS3</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Bootstrap} alt='Icone Bootstrap'/>Bootstrap</li>
                             <li className='list-item-competence'><img className='list-icon' src={Sass} alt='Icone SASS'/>SASS</li>
                             <li className='list-item-competence'><img className='list-icon' src={Figma} alt='Icone Figma'/>Figma</li>
                         </ul>
@@ -113,10 +117,12 @@ function Home() {
                             <li className='list-item-competence'><img className='list-icon' src={Django} alt='Icone Django'/>Django</li>
                             <li className='list-item-competence'><img className='list-icon' src={NodeJS} alt='Icone NodeJS'/>Node JS</li>
                             <li className='list-item-competence'><img className='list-icon' src={Express} alt='Icone ExpressJS'/>Express JS</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Docker} alt='Icone Docker'/>Docker</li>
                         </ul>
                         <ul>
                             <h3 className='competences-title'>Divers</h3>
-                            <li className='list-item-competence'><img className='list-icon' src={Api} alt='Icone API'/>API</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Api} alt='Icone API'/>API Rest</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Git} alt='Icone Git'/>Git</li>
                             <li className='list-item-competence'><img className='list-icon' src={Github} alt='Icone Github'/>Github</li>
                             <li className='list-item-competence'><img className='list-icon' src={Linux} alt='Icone Linux'/>Linux</li>
                             <li className='list-item-competence'><img className='list-icon' src={Windows} alt='Icone Windows'/>Windows</li>
