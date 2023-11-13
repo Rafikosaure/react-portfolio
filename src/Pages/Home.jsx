@@ -5,7 +5,7 @@ import Css3 from '../Images/css3.svg'
 import Api from '../Images/api.png'
 import Django from '../Images/django.svg'
 import Express from '../Images/express.svg'
-import Javascript from '../Images/javascript.svg'
+import JavaScript from '../Images/javascript.svg'
 import Linux from '../Images/linux.png'
 import MongoDB from '../Images/mongodb.svg'
 import NodeJS from '../Images/nodejs.svg'
@@ -22,6 +22,9 @@ import Figma from '../Images/figma.svg'
 import Git from '../Images/git.svg'
 import Bootstrap from '../Images/bootstrap.svg'
 import Docker from '../Images/docker.svg'
+import ChatGPT from '../Images/chatgpt.svg'
+import GreenIT from '../Images/greenit.png'
+import Accessibilité from '../Images/accessibilité.png'
 import Card from '../Components/Card'
 import projects from '../Datas/projects.json'
 import { Link } from 'react-router-dom'
@@ -102,12 +105,13 @@ function Home() {
                         <ul>
                             <h3 className='competences-title'>Frontend</h3>
                             <li className='list-item-competence'><img className='list-icon' src={React} alt='Icone ReactJS'/>React JS</li>
-                            <li className='list-item-competence'><img className='list-icon' src={Javascript} alt='Icone Javascript'/>Javascript</li>
+                            <li className='list-item-competence'><img className='list-icon' src={JavaScript} alt='Icone JavaScript'/>JavaScript</li>
                             <li className='list-item-competence'><img className='list-icon' src={Html5} alt='Icone HTML5'/>HTML5</li>
                             <li className='list-item-competence'><img className='list-icon' src={Css3} alt='Icone CSS3'/>CSS3</li>
                             <li className='list-item-competence'><img className='list-icon' src={Bootstrap} alt='Icone Bootstrap'/>Bootstrap</li>
                             <li className='list-item-competence'><img className='list-icon' src={Sass} alt='Icone SASS'/>SASS</li>
                             <li className='list-item-competence'><img className='list-icon' src={Figma} alt='Icone Figma'/>Figma</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Accessibilité} alt='Icone Accessibilité'/>Accessibilité</li>
                         </ul>
                         <ul>
                             <h3 className='competences-title'>Backend</h3>
@@ -118,12 +122,14 @@ function Home() {
                             <li className='list-item-competence'><img className='list-icon' src={NodeJS} alt='Icone NodeJS'/>Node JS</li>
                             <li className='list-item-competence'><img className='list-icon' src={Express} alt='Icone ExpressJS'/>Express JS</li>
                             <li className='list-item-competence'><img className='list-icon' src={Docker} alt='Icone Docker'/>Docker</li>
+                            <li className='list-item-competence'><img className='list-icon' src={GreenIT} alt='Icone Green IT'/>Green IT</li>
                         </ul>
                         <ul>
                             <h3 className='competences-title'>Divers</h3>
                             <li className='list-item-competence'><img className='list-icon' src={Api} alt='Icone API'/>API Rest</li>
                             <li className='list-item-competence'><img className='list-icon' src={Git} alt='Icone Git'/>Git</li>
                             <li className='list-item-competence'><img className='list-icon' src={Github} alt='Icone Github'/>Github</li>
+                            <li className='list-item-competence'><img className='list-icon' src={ChatGPT} alt='Icone ChatGPT'/>ChatGPT</li>
                             <li className='list-item-competence'><img className='list-icon' src={Linux} alt='Icone Linux'/>Linux</li>
                             <li className='list-item-competence'><img className='list-icon' src={Windows} alt='Icone Windows'/>Windows</li>
                             <li className='list-item-competence'><img className='list-icon' src={VSC} alt='Icone Visual Studio Code'/>Visual Studio Code</li>
