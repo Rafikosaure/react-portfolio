@@ -346,12 +346,23 @@
             transition: 2.5s;
         }
 
-        .reveal-citation {
+        .reveal-text {
             opacity: 0;
             transform: translateX(70px);
         }
 
-        .reveal-citation-visible {
+        .reveal-text-visible {
+            opacity: 1;
+            transform: translateX(0);
+            transition: 1s;
+        }
+
+        .reveal-picture {
+            opacity: 0;
+            transform: translateX(-70px);
+        }
+
+        .reveal-picture-visible {
             opacity: 1;
             transform: translateX(0);
             transition: 1s;

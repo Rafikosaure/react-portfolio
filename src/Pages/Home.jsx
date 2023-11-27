@@ -31,9 +31,11 @@ import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
 
 function Home() {
-    const { ref: myCompetences, inView: myCompetencesAreVisible } = useInView();
-    const { ref: revealCitation, inView: myCitationIsVisible } = useInView();
     const { ref: myPresentation, inView: myPresentationIsVisible } = useInView();
+    const { ref: myPicture, inView: myPictureIsVisible } = useInView();
+    const { ref: myPresentationText, inView: myPresentationTextIsVisible } = useInView();
+    const { ref: revealCitation, inView: myCitationIsVisible } = useInView();
+    const { ref: myCompetences, inView: myCompetencesAreVisible } = useInView();
     const { ref: myPortfolio, inView: myPortfolioIsVisible } = useInView();
     return (
         <div>
@@ -55,10 +57,11 @@ function Home() {
                     <img
                         src={Profile2}
                         alt="Rafik Ben Sadi en train de travailler"
-                        className='col-contenu image-shadow'
+                        ref={myPicture} className={`${'col-contenu image-shadow'} ${'reveal-picture'} ${myPictureIsVisible ? 'reveal-picture-visible' : ''}`}
                     />
                     <div className="col-contenu float-right">
-                        <div className="texte-avec-ligne-verticale">
+                        <div ref={myPresentationText} 
+                        className={`${'texte-avec-ligne-verticale'} ${'reveal-text'} ${myPresentationTextIsVisible ? 'reveal-text-visible' : ''}`}>
                             <p className="texte-profile-description">
                                 Développeur fullstack curieux, autodidacte et
                                 passionné par les technologies numériques depuis
@@ -96,7 +99,7 @@ function Home() {
                 {/* SECTION GRISE 2 */}
                 <div className="section section-grise2">
                     <div
-                        ref={revealCitation} className={`${'div-citation'} ${'reveal-citation'} ${myCitationIsVisible ? 'reveal-citation-visible' : ''}`}> 
+                        ref={revealCitation} className={`${'div-citation'} ${'reveal-text'} ${myCitationIsVisible ? 'reveal-text-visible' : ''}`}> 
                         “Un bon programmeur est quelqu’un qui regarde toujours des deux côtés avant de traverser une rue à sens unique.”<br/>- Doug Linder, historien et développeur
                     </div>
                 </div>
