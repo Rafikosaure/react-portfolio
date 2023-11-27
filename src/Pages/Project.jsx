@@ -1,11 +1,13 @@
-import '../Styles/Styles.css'
+import '../Styles/Styles.scss'
 import Projects from '../Datas/projects.json'
 import { useParams } from 'react-router'
 import { Link } from 'react-router-dom'
+import { useInView } from 'react-intersection-observer'
 
 function Project() {
     const { projectId } = useParams()
     const currentDatas = Projects.find((project) => project.id === projectId)
+    const { ref: myProject, inView: myProjectIsVisible } = useInView();
 
     return (
         <div>
@@ -19,7 +21,7 @@ function Project() {
                 <h2 className="portfolio">{currentDatas.title}</h2>
             </div>
             {/* SECTION CONTENU */}
-            <div className="section">
+            <div ref={myProject} className={`${'section'} ${'reveal'} ${myProjectIsVisible ? 'reveal-visible' : ''}`}>
                 <div className="texte-avec-ligne-verticale">
                     {currentDatas.description}
                     <br />

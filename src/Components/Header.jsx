@@ -1,4 +1,4 @@
-import '../Styles/Styles.css'
+import '../Styles/Styles.scss'
 import { useLocation } from 'react-router-dom'
 import Profile1 from '../Images/profile.webp'
 

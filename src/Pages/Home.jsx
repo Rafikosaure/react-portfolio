@@ -1,4 +1,4 @@
-import '../Styles/Styles.css'
+import '../Styles/Styles.scss'
 import Profile2 from '../Images/profile2.webp'
 import Html5 from '../Images/html5.svg'
 import Css3 from '../Images/css3.svg'
@@ -28,8 +28,13 @@ import Accessibilité from '../Images/accessibilité.png'
 import Card from '../Components/Card'
 import projects from '../Datas/projects.json'
 import { Link } from 'react-router-dom'
+import { useInView } from 'react-intersection-observer'
 
 function Home() {
+    const { ref: myCompetences, inView: myCompetencesAreVisible } = useInView();
+    const { ref: revealCitation, inView: myCitationIsVisible } = useInView();
+    const { ref: myPresentation, inView: myPresentationIsVisible } = useInView();
+    const { ref: myPortfolio, inView: myPortfolioIsVisible } = useInView();
     return (
         <div>
             {/* COUVERTURE */}
@@ -45,12 +50,12 @@ function Home() {
                     </p>
                 </div>
                 {/* SECTION BLANCHE */}
-                <div className="section">
+                <div ref={myPresentation} className={`${'section'} ${'reveal'} ${myPresentationIsVisible ? 'reveal-visible' : ''}`}>
                     <h2>À propos de moi</h2>
                     <img
                         src={Profile2}
                         alt="Rafik Ben Sadi en train de travailler"
-                        className="col-contenu image-shadow"
+                        className='col-contenu image-shadow'
                     />
                     <div className="col-contenu float-right">
                         <div className="texte-avec-ligne-verticale">
@@ -90,8 +95,9 @@ function Home() {
                 </div>
                 {/* SECTION GRISE 2 */}
                 <div className="section section-grise2">
-                    <div className='div-citation'>
-                    “Un bon programmeur est quelqu’un qui regarde toujours des deux côtés avant de traverser une rue à sens unique.”<br/>- Doug Linder, historien et développeur
+                    <div
+                        ref={revealCitation} className={`${'div-citation'} ${'reveal-citation'} ${myCitationIsVisible ? 'reveal-citation-visible' : ''}`}> 
+                        “Un bon programmeur est quelqu’un qui regarde toujours des deux côtés avant de traverser une rue à sens unique.”<br/>- Doug Linder, historien et développeur
                     </div>
                 </div>
                 {/* SECTION GRISE 1 */}
@@ -99,7 +105,7 @@ function Home() {
                 </div>
                 {/* SECTION BLANCHE */}
                 <div className="section">
-                    <div>
+                    <div ref={myCompetences} className={`${'reveal'} ${myCompetencesAreVisible ? 'reveal-visible' : ''}`}>
                         <h2>Mes Compétences</h2>
                         <div className='div-competences-orientation'>
                         <ul>
@@ -140,7 +146,7 @@ function Home() {
                 </div>
                 
                 {/* SECTION GRISE 2 */}
-                <div className="section section-grise2">
+                <div ref={myPortfolio} className={`${'section section-grise2'} ${'reveal'} ${myPortfolioIsVisible ? 'reveal-visible' : ''}`}>
                     <h2 id='portfolio'>Portfolio</h2>
                     <div className="projects-cardslist">
                         {projects.map((project) => (

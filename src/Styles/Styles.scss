@@ -335,6 +335,28 @@
             display: none;
         }
 
+        .reveal {
+            opacity: 0;
+            transform: translateY(-60px);
+        }
+
+        .reveal-visible {
+            opacity: 1;
+            transform: translateY(0);
+            transition: 2.5s;
+        }
+
+        .reveal-citation {
+            opacity: 0;
+            transform: translateX(70px);
+        }
+
+        .reveal-citation-visible {
+            opacity: 1;
+            transform: translateX(0);
+            transition: 1s;
+        }
+
 
         /* RESPONSIVE DESIGN : MOBILE */
         @media only screen and (max-width: 767px) {
