@@ -12,7 +12,7 @@ function Project() {
     return (
         <div>
             {/* SECTION GRISE TITRE */}
-            <div className="section section-grise1" style={{ paddingTop: 20 }}>
+            <div className="section section-grise1 project-section" style={{ paddingTop: 20 }}>
                 <a className="portfolio-back" href="/">
                     Retour
                 </a>

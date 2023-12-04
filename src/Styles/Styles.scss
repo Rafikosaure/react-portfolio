@@ -368,6 +368,10 @@
             transition: 1s;
         }
 
+        .project-section {
+            margin-bottom: 40px;
+        }
+
 
         /* RESPONSIVE DESIGN : MOBILE */
         @media only screen and (max-width: 767px) {
@@ -440,6 +444,39 @@
             div.frame img {
                 width: 70px;
             }
+
+            .reveal {
+                opacity: 0;
+                transform: none;
+            }
+    
+            .reveal-visible {
+                opacity: 1;
+                transform: none;
+                transition: 2.5s;
+            }
+    
+            .reveal-text {
+                opacity: 0;
+                transform: none;
+            }
+    
+            .reveal-text-visible {
+                opacity: 1;
+                transform: none;
+                transition: 1s;
+            }
+    
+            .reveal-picture {
+                opacity: 0;
+                transform: none;
+            }
+    
+            .reveal-picture-visible {
+                opacity: 1;
+                transform: none;
+                transition: 1s;
+            }
             
             /* PORTFOLIO - MOBILE */
             .portfolio-header-title {
@@ -476,5 +513,9 @@
 
             .display-mobile {
                 display: block;
+            }
+
+            .project-section {
+                margin-bottom: 0;
             }
         }
