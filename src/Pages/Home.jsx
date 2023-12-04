@@ -29,6 +29,7 @@ import Card from '../Components/Card'
 import projects from '../Datas/projects.json'
 import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
+import { useTypingEffect } from '../Hooks/Typing-effect'
 
 function Home() {
     const { ref: myPresentation, inView: myPresentationIsVisible } = useInView();
@@ -37,6 +38,8 @@ function Home() {
     const { ref: revealCitation, inView: myCitationIsVisible } = useInView();
     const { ref: myCompetences, inView: myCompetencesAreVisible } = useInView();
     const { ref: myPortfolio, inView: myPortfolioIsVisible } = useInView();
+    const text = '"Un bon programmeur est quelqu’un qui regarde toujours des deux côtés avant de traverser une rue à sens unique." - Doug Linder, historien et développeur'
+    const citation = useTypingEffect(text, 40)
     return (
         <div>
             {/* COUVERTURE */}
@@ -99,8 +102,8 @@ function Home() {
                 {/* SECTION GRISE 2 */}
                 <div className="section section-grise2">
                     <div
-                        ref={revealCitation} className={`${'div-citation'} ${'reveal-text'} ${myCitationIsVisible ? 'reveal-text-visible' : ''}`}> 
-                        “Un bon programmeur est quelqu’un qui regarde toujours des deux côtés avant de traverser une rue à sens unique.”<br/>- Doug Linder, historien et développeur
+                        ref={revealCitation} className={`${'div-citation'} ${'reveal-text'} ${myCitationIsVisible ? 'reveal-text-visible': ''}`}> 
+                        {citation}
                     </div>
                 </div>
                 {/* SECTION GRISE 1 */}
