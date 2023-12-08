@@ -39,7 +39,7 @@ function Home() {
     const { ref: myCompetences, inView: myCompetencesAreVisible } = useInView();
     const { ref: myPortfolio, inView: myPortfolioIsVisible } = useInView();
     const text = '"Un bon programmeur est quelqu’un qui regarde toujours des deux côtés avant de traverser une rue à sens unique." - Doug Linder, historien et développeur'
-    const citation = useTypingEffect(text, 40)
+    const citation = useTypingEffect(text, 30)
     return (
         <div>
             {/* COUVERTURE */}
@@ -152,13 +152,16 @@ function Home() {
                 </div>
                 
                 {/* SECTION GRISE 2 */}
-                <div ref={myPortfolio} className={`${'section section-grise2'} ${'reveal'} ${myPortfolioIsVisible ? 'reveal-visible' : ''}`}>
-                    <h2 id='portfolio'>Portfolio</h2>
-                    <div className="projects-cardslist">
+                <div ref={myPortfolio} className={`${'section section-grise2'}`}>
+                    <div className={`${'reveal'} ${myPortfolioIsVisible ? 'reveal-visible' : ''}`}>
+                        <h2 id='portfolio'>Portfolio</h2>
+                        <div className="projects-cardslist">
                         {projects.map((project) => (
                             <Card key={`${project.id}`} project={project} />
                         ))}
                     </div>
+                    </div>
+                    
                 </div>
                 <div className='linear-gradient'></div>
             </main>

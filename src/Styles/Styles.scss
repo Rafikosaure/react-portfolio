@@ -326,6 +326,12 @@
             border-radius: 10px;
         }
 
+        .div-slideshow {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
         .linear-gradient {
             height: 40px;
             background: linear-gradient(var(--color2), white);
@@ -417,6 +423,12 @@
 
             .texte-avec-ligne-verticale {
                 padding-right: 8px;
+                font-size: 14px;
+                line-height: 21px;
+            }
+
+            .projects-fontsize {
+                font-size: 14px;
             }
 
             .texte-profile-description {
@@ -484,6 +496,10 @@
             }
             
             /* PORTFOLIO - MOBILE */
+            a.portfolio-back {
+                font-size: 14px;
+            }
+
             .portfolio-header-title {
                 font-size: 19px;
                 padding-top: 10px;

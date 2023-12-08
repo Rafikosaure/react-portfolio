@@ -16,6 +16,7 @@ function Card({ project }) {
                                 style={{ width: '100%' }}
                                 alt="Couverture du projet"
                                 src={project.cover}
+                                title='Consulter le projet'
                             />
                         </Link>
                     </td>

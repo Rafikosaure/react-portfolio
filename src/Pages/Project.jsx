@@ -1,5 +1,6 @@
 import '../Styles/Styles.scss'
 import Projects from '../Datas/projects.json'
+import Slideshow from '../Components/Slideshow'
 import { useParams } from 'react-router'
 import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
@@ -36,6 +37,7 @@ function Project() {
                                 to={currentDatas.urlSite}
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                title='Visiter le site'
                             >
                                 <img
                                     className="portfolio image-bordered image-shadow"
@@ -44,31 +46,28 @@ function Project() {
                                 />
                             </Link>
                             <Link
+                                className='projects-fontsize'
                                 style={{ display: 'block', marginTop: 8 }}
                                 to={currentDatas.urlSite}
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Voir le site
+                                Visiter le site
                             </Link>
                         </div>
                     ) : (
-                        
-                        <img
-                            className="portfolio image-bordered image-shadow"
-                            alt="Couverture de projet"
-                            src={`/${currentDatas.cover}`}
-                        />
-                    
+                        <div className='div-slideshow'>
+                            <Slideshow currentDatas={currentDatas} />
+                        </div>
                     )}
-                    
                     <Link
+                        className='projects-fontsize'
                         style={{ display: 'block', marginTop: 8 }}
                         to={currentDatas.urlRepo}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Consulter le code du projet
+                        Consulter le code du projet sur Github
                     </Link>
                 </div>
             </div>
