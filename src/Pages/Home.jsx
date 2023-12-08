@@ -38,7 +38,7 @@ function Home() {
     const { ref: revealCitation, inView: myCitationIsVisible } = useInView();
     const { ref: myCompetences, inView: myCompetencesAreVisible } = useInView();
     const { ref: myPortfolio, inView: myPortfolioIsVisible } = useInView();
-    const text = '"Un bon programmeur est quelqu’un qui regarde toujours des deux côtés avant de traverser une rue à sens unique." - Doug Linder, historien et développeur'
+    const text = `"Un bon programmeur est quelqu’un qui regarde toujours des deux côtés avant de traverser une rue à sens unique." - Doug Linder, historien et développeur`
     const citation = useTypingEffect(text, 30)
     return (
         <div>
