@@ -137,12 +137,12 @@ function Home() {
                             <h3 className='competences-title'>Backend</h3>
                             <li className='list-item-competence'><img className='list-icon' src={SQL} alt='Icone SQL'/>SQL</li>
                             <li className='list-item-competence'><img className='list-icon' src={MongoDB} alt='Icone MongoDB'/>MongoDB</li>
-                            <li className='list-item-competence'><img className='list-icon' src={Security} alt='Icone Cyber-sécurité'/>Sécurité data</li>
                             <li className='list-item-competence'><img className='list-icon' src={Python} alt='Icone Python'/>Python</li> 
                             <li className='list-item-competence'><img className='list-icon' src={Django} alt='Icone Django'/>Django</li>
                             <li className='list-item-competence'><img className='list-icon' src={NodeJS} alt='Icone NodeJS'/>Node JS</li>
                             <li className='list-item-competence'><img className='list-icon' src={Express} alt='Icone ExpressJS'/>Express JS</li>
-                            <li className='list-item-competence'><img className='list-icon' src={Api} alt='Icone API'/>API Rest</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Security} alt='Icone Cyber-sécurité'/>Sécurité serveur web</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Api} alt='Icone API'/>API REST</li>
                             <li className='list-item-competence'><img className='list-icon' src={Postman} alt='Icone Postman'/>Postman</li>
                             <li className='list-item-competence'><img className='list-icon' src={Docker} alt='Icone Docker'/>Docker</li>
                         </ul>
