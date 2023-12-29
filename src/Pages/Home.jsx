@@ -25,7 +25,7 @@ import Docker from '../Images/docker.svg'
 import ChatGPT from '../Images/chatgpt.svg'
 import GreenIT from '../Images/greenit.png'
 import Accessibilité from '../Images/accessibilité.png'
-import TypeScript from '../Images/typescript.svg'
+import TypeScript from '../Images/typescript.png'
 import Tailwind from '../Images/tailwind.svg'
 import Terminal from '../Images/console.png'
 import Postman from '../Images/postman.png'
@@ -123,8 +123,8 @@ function Home() {
                         <ul>
                             <h3 className='competences-title'>Frontend</h3>
                             <li className='list-item-competence'><img className='list-icon' src={React} alt='Icone ReactJS'/>React JS</li>
-                            <li className='list-item-competence'><img className='list-icon' src={JavaScript} alt='Icone JavaScript'/>JavaScript</li>
                             <li className='list-item-competence'><img className='list-icon' src={TypeScript} alt='Icone Bootstrap'/>TypeScript</li>
+                            <li className='list-item-competence'><img className='list-icon' src={JavaScript} alt='Icone JavaScript'/>JavaScript</li>
                             <li className='list-item-competence'><img className='list-icon' src={Html5} alt='Icone HTML5'/>HTML5</li>
                             <li className='list-item-competence'><img className='list-icon' src={Css3} alt='Icone CSS3'/>CSS3</li>
                             <li className='list-item-competence'><img className='list-icon' src={Bootstrap} alt='Icone Bootstrap'/>Bootstrap</li>
