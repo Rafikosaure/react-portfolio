@@ -40,7 +40,6 @@ import { useTypingEffect } from '../Hooks/Typing-effect'
 function Home() {
     const { ref: myPresentation, inView: myPresentationIsVisible } = useInView();
     const { ref: myPicture, inView: myPictureIsVisible } = useInView();
-    const { ref: myPresentationText, inView: myPresentationTextIsVisible } = useInView();
     const { ref: revealCitation, inView: myCitationIsVisible } = useInView();
     const { ref: myCompetences, inView: myCompetencesAreVisible } = useInView();
     const { ref: myPortfolio, inView: myPortfolioIsVisible } = useInView();
@@ -69,8 +68,7 @@ function Home() {
                         ref={myPicture} className={`${'col-contenu image-shadow'} ${'reveal-picture'} ${myPictureIsVisible ? 'reveal-picture-visible' : ''}`}
                     />
                     <div className="col-contenu float-right">
-                        <div ref={myPresentationText} 
-                        className={`${'texte-avec-ligne-verticale'} ${'reveal-text'} ${myPresentationTextIsVisible ? 'reveal-text-visible' : ''}`}>
+                        <div className="texte-avec-ligne-verticale">
                             <p className="texte-profile-description">
                                 Développeur fullstack curieux, autodidacte et
                                 passionné par les technologies numériques depuis
@@ -80,8 +78,8 @@ function Home() {
                                 dénichés dans la bibliothèque paternelle. Après
                                 un parcours universitaire d'historien-chercheur,
                                 j'ai décidé de me reconvertir dans le
-                                développement informatique en suivant les cours
-                                sur le <strong>langage Python</strong> de Jonathan Roux sur
+                                développement informatique en suivant des cours
+                                sur le <strong>langage Python</strong> sur
                                 Udemy.com. Enfin, je me suis spécialisé dans le
                                 développement Web en suivant le parcours
                                 diplomant d'<strong>OpenClassrooms.com</strong> (anciennement
