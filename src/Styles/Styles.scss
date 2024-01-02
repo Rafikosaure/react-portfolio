@@ -108,6 +108,10 @@
             overflow: auto;
         }
 
+        .section-blanche {
+            padding-bottom: 80px;
+        }
+
         div.section-grise1 {
             background: url(../Images/triangle2white.svg) no-repeat center bottom -1px/100%;
             background-color: var(--color2);
@@ -178,10 +182,17 @@
             text-align: justify;
         }
 
-        .linkedin-link {
+        .div-presentation-links {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .presentation-link {
             display: flex;
             justify-content: flex-start;
             align-items: center;
+            margin-right: 60px;
+            margin-bottom: 15px;
         }
 
         .div-competences-orientation {
@@ -213,7 +224,7 @@
         .list-icon {
             width: 35px;
             height: 35px;
-            margin-right: 16px;
+            margin-right: 12px;
         }
 
         .div-citation {
@@ -434,6 +445,17 @@
                 padding-right: 8px;
                 font-size: 14px;
                 line-height: 21px;
+            }
+
+            .div-presentation-links {
+                flex-direction: column;
+                align-items:center;
+            }
+
+            .presentation-link {
+                margin-right: 0;
+                margin-top: 10px;
+                margin-bottom: 20px;
             }
 
             .projects-fontsize {

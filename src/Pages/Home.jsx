@@ -16,6 +16,7 @@ import SQL from '../Images/sql.png'
 import VSC from '../Images/vsc.svg'
 import Windows from '../Images/windows.png'
 import LinkedIn from '../Images/linkedin.svg'
+import CV_Icon from '../Images/cv.png'
 import Sass from '../Images/sass.svg'
 import Github from '../Images/github.svg'
 import Figma from '../Images/figma.svg'
@@ -31,6 +32,7 @@ import Terminal from '../Images/console.png'
 import Postman from '../Images/postman.png'
 import SEO from '../Images/SEO.png'
 import Security from '../Images/cyber-securite.png'
+import CV_File from '../CV/CV_BenSadi_Rafik.pdf'
 import Card from '../Components/Card'
 import projects from '../Datas/projects.json'
 import { Link } from 'react-router-dom'
@@ -60,7 +62,7 @@ function Home() {
                     </p>
                 </div>
                 {/* SECTION BLANCHE */}
-                <div ref={myPresentation} className={`${'section'} ${'reveal'} ${myPresentationIsVisible ? 'reveal-visible' : ''}`}>
+                <div ref={myPresentation} className={`${'section section-blanche'} ${'reveal'} ${myPresentationIsVisible ? 'reveal-visible' : ''}`}>
                     <h2>À propos de moi</h2>
                     <img
                         src={Profile2}
@@ -98,8 +100,12 @@ function Home() {
                                 nombre de <strong>projets Web et Web mobile</strong>, dont vous
                                 pouvez avoir <a href='#portfolio'>un aperçu ici</a>.
                             </p>
-                            <Link className='linkedin-link' to="https://www.linkedin.com/in/rafikbensadi" target="_blank"
-                        rel="noopener noreferrer"><img className='list-icon' src={LinkedIn} alt='Icone API'/>Consulter mon profil LinkedIn</Link>
+                            <div className='div-presentation-links'>
+                                <Link className='presentation-link' to="https://www.linkedin.com/in/rafikbensadi" target="_blank"
+                                rel="noopener noreferrer"><img className='list-icon' src={LinkedIn} alt='Icone LinkedIn'/>Consulter mon profil LinkedIn</Link>
+                                <a className='presentation-link' target='_blank' rel='noopener noreferrer' href={CV_File}><img className='list-icon' src={CV_Icon} alt='Icone CV'/>Consulter mon Curriculum Vitae</a>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
