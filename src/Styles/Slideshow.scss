@@ -7,16 +7,13 @@ $font-family_1: Arial;
 }
 
 .slideshow {
-	// width: 1240px;
     width: 86%;
-    height: 255px;
-    min-width: 335px;
+    height: auto;
     border: solid 1px grey;
     border-radius: 10px;
     @media (min-width: 768px) {
         width: 86%;
-	    // height: 415px;
-        height: 40%;
+        height: auto;
         border: solid 1px grey;
         border-radius: 25px;
     }
@@ -71,7 +68,6 @@ $font-family_1: Arial;
                 -1px 1px 0 $color_1,
                 -1px -1px 0 $color_1,
                 1px -1px 0 $color_1;
-            // font-size: 18px;
             font-size: 24px;
             font-family: $font-family_1;
             font-weight: 500;
