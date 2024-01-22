@@ -48,12 +48,12 @@ $font-family_1: Arial;
         }
         .slideshow__buttonPrev {
             left: 0px;
-            background: url("../Images/arrow_left.svg");
+            background: url("../Images/arrow_left.webp");
             @include button-image;
         }
         .slideshow__buttonNext {
             right: 0px;
-            background: url("../Images/arrow_right.svg");
+            background: url("../Images/arrow_right.webp");
             @include button-image;
         }
         .slideshow__counter {
