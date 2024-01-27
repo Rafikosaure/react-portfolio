@@ -71,8 +71,7 @@
 			"Images/images_projets/sophie_bluel/image_05_sophie_bluel.webp",
 			"Images/images_projets/sophie_bluel/image_06_sophie_bluel.webp",
 			"Images/images_projets/sophie_bluel/image_07_sophie_bluel.webp",
-			"Images/images_projets/sophie_bluel/image_08_sophie_bluel.webp",
-			"Images/images_projets/sophie_bluel/image_09_sophie_bluel.webp"
+			"Images/images_projets/sophie_bluel/image_08_sophie_bluel.webp"
 		],
 		"description": "Ce site est le portfolio en ligne de l'architecte d'intérieur Sophie Bluel. Sa réalisation a été pour moi un vrai rite de passage puisqu'il m'a initié au langage Javascript, incontournable pour tout développeur frontend (c'est à dire qui travaille sur le rendu visible du site dans la fenêtre du navigateur Web). Ce projet comporte une galerie d'images que l'on peut filtrer par catégorie, une interface connecté/déconnecté fonctionnant via un formulaire de connexion, et même une boîte modale pour ajouter ou supprimer des images (disponible en mode connecté uniquement). Ce projet m'a également initié au traitement de données récupérées depuis une API, ce qui est aujourd'hui une compétence fondamentale pour tout développeur Web. Les difficultés que j'ai rencontré sont inhérentes à tout apprentissage d'un langage depuis zéro : il m'a fallu beaucoup de patience et de motivation pour y arriver, mais les compétences et techniques finalement acquises sont une belle récompense.",
 		"technologies": "HTML5, CSS3, JAVASCRIPT, FIGMA, API, NODE.JS.",
