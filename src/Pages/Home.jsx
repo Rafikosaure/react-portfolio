@@ -3,7 +3,7 @@ import Profile2 from '../Images/profile2.webp'
 import Html5 from '../Images/html5.svg'
 import Css3 from '../Images/css3.svg'
 import Api from '../Images/api.png'
-import Django from '../Images/django.svg'
+// import Django from '../Images/django.svg'
 import Express from '../Images/express.png'
 import JavaScript from '../Images/javascript.png'
 import Linux from '../Images/linux.png'
@@ -29,7 +29,7 @@ import Accessibilité from '../Images/accessibilité.png'
 import TypeScript from '../Images/typescript.png'
 // import Tailwind from '../Images/tailwind.svg'
 import Terminal from '../Images/console.png'
-// import Postman from '../Images/postman.png'
+import Postman from '../Images/postman.png'
 import SEO from '../Images/SEO.png'
 // import Security from '../Images/cyber-securite.png'
 import CV_File from '../CV/CV_BenSadi_Rafik.pdf'
@@ -142,12 +142,12 @@ function Home() {
                             <li className='list-item-competence'><img className='list-icon' src={SQL} alt='Icone SQL'/>SQL</li>
                             <li className='list-item-competence'><img className='list-icon' src={MongoDB} alt='Icone MongoDB'/>MongoDB</li>
                             <li className='list-item-competence'><img className='list-icon' src={Python} alt='Icone Python'/>Python</li> 
-                            <li className='list-item-competence'><img className='list-icon' src={Django} alt='Icone Django'/>Django</li>
+                            {/* <li className='list-item-competence'><img className='list-icon' src={Django} alt='Icone Django'/>Django</li> */}
                             <li className='list-item-competence'><img className='list-icon' src={NodeJS} alt='Icone NodeJS'/>Node JS</li>
                             <li className='list-item-competence'><img className='list-icon' src={Express} alt='Icone ExpressJS'/>Express JS</li>
                             {/* <li className='list-item-competence'><img className='list-icon' src={Security} alt='Icone Cyber-sécurité'/>Sécurité serveur web</li> */}
                             <li className='list-item-competence'><img className='list-icon' src={Api} alt='Icone API'/>API REST</li>
-                            {/* <li className='list-item-competence'><img className='list-icon' src={Postman} alt='Icone Postman'/>Postman</li> */}
+                            <li className='list-item-competence'><img className='list-icon' src={Postman} alt='Icone Postman'/>Postman</li>
                             <li className='list-item-competence'><img className='list-icon' src={Docker} alt='Icone Docker'/>Docker</li>
                         </ul>
                         <ul>

@@ -17,7 +17,7 @@ function Header() {
                     <h1>Rafik Ben Sadi</h1>
                     <p className="cover-description">
                         Développeur Fullstack | React -
-                        Node JS - Express JS - Python - Django
+                        Node JS - Express JS
                     </p>
                     <div style={{ textAlign: 'center' }}>
                         <a
