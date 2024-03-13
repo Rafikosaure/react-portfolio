@@ -9,7 +9,7 @@ import JavaScript from '../Images/javascript.png'
 import Linux from '../Images/linux.png'
 import MongoDB from '../Images/mongodb.svg'
 import NodeJS from '../Images/nodejs.svg'
-// import PyCharm from '../Images/pycharm.png'
+import PyCharm from '../Images/pycharm.png'
 import Python from '../Images/python.svg'
 import React from '../Images/react.svg'
 import SQL from '../Images/sql.png'
@@ -21,17 +21,25 @@ import Sass from '../Images/sass.svg'
 import Github from '../Images/github.svg'
 import Figma from '../Images/figma.svg'
 import Git from '../Images/git.png'
-// import Bootstrap from '../Images/bootstrap.svg'
+import Bootstrap from '../Images/bootstrap.svg'
 import Docker from '../Images/docker.svg'
 import ChatGPT from '../Images/chatgpt.svg'
-// import GreenIT from '../Images/greenit.png'
+import GreenIT from '../Images/greenit.png'
 import Accessibilité from '../Images/accessibilité.png'
 import TypeScript from '../Images/typescript.png'
-// import Tailwind from '../Images/tailwind.svg'
+import Tailwind from '../Images/tailwind.svg'
 import Terminal from '../Images/console.png'
 import Postman from '../Images/postman.png'
 import SEO from '../Images/SEO.png'
 // import Security from '../Images/cyber-securite.png'
+import Webflow from '../Images/webflow.svg'
+import LinuxServer from '../Images/serveur_linux.png'
+import DevOps from '../Images/devops.png'
+import Redux from '../Images/redux.svg'
+import Architecture from '../Images/architecture_logicielle.png'
+import CloudComputing from '../Images/cloud_computing.png'
+import UML from '../Images/uml.png'
+import ManageProject from '../Images/gestion_projet.png'
 import CV_File from '../CV/CV_BenSadi_Rafik.pdf'
 import Card from '../Components/Card'
 import projects from '../Datas/projects.json'
@@ -127,14 +135,16 @@ function Home() {
                         <ul>
                             <h3 className='competences-title'>Frontend</h3>
                             <li className='list-item-competence'><img className='list-icon' src={React} alt='Icone ReactJS'/>React JS</li>
-                            <li className='list-item-competence'><img className='list-icon' src={TypeScript} alt='Icone Bootstrap'/>TypeScript</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Redux} alt='Icone Redux'/>Redux</li>
+                            <li className='list-item-competence'><img className='list-icon' src={TypeScript} alt='Icone TypeScript'/>TypeScript</li>
                             <li className='list-item-competence'><img className='list-icon' src={JavaScript} alt='Icone JavaScript'/>JavaScript</li>
                             <li className='list-item-competence'><img className='list-icon' src={Html5} alt='Icone HTML5'/>HTML5</li>
                             <li className='list-item-competence'><img className='list-icon' src={Css3} alt='Icone CSS3'/>CSS3</li>
-                            {/* <li className='list-item-competence'><img className='list-icon' src={Bootstrap} alt='Icone Bootstrap'/>Bootstrap</li> */}
-                            {/* <li className='list-item-competence'><img className='list-icon' src={Tailwind} alt='Icone Tailwind'/>Tailwind</li> */}
+                            <li className='list-item-competence'><img className='list-icon' src={Bootstrap} alt='Icone Bootstrap'/>Bootstrap</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Tailwind} alt='Icone Tailwind'/>Tailwind</li>
                             <li className='list-item-competence'><img className='list-icon' src={Sass} alt='Icone SASS'/>SASS</li>
                             <li className='list-item-competence'><img className='list-icon' src={Figma} alt='Icone Figma'/>Figma</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Webflow} alt='Icone Webflow'/>Webflow</li>
                             <li className='list-item-competence'><img className='list-icon' src={Accessibilité} alt='Icone Accessibilité'/>Accessibilité</li>
                         </ul>
                         <ul>
@@ -145,22 +155,28 @@ function Home() {
                             <li className='list-item-competence'><img className='list-icon' src={NodeJS} alt='Icone NodeJS'/>Node JS</li>
                             <li className='list-item-competence'><img className='list-icon' src={Express} alt='Icone ExpressJS'/>Express JS</li>
                             <li className='list-item-competence'><img className='list-icon' src={SEO} alt='Icone SEO'/>SEO</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Architecture} alt='Icone Architecture logicielle'/>Architecture logicielle</li>
                             {/* <li className='list-item-competence'><img className='list-icon' src={Security} alt='Icone Cyber-sécurité'/>Sécurité serveur web</li> */}
                             <li className='list-item-competence'><img className='list-icon' src={Api} alt='Icone API'/>API REST</li>
                             <li className='list-item-competence'><img className='list-icon' src={Postman} alt='Icone Postman'/>Postman</li>
                             <li className='list-item-competence'><img className='list-icon' src={Docker} alt='Icone Docker'/>Docker</li>
+                            <li className='list-item-competence'><img className='list-icon' src={LinuxServer} alt='Icone Serveurs Linux'/>Serveur Linux</li>
+                            <li className='list-item-competence'><img className='list-icon' src={CloudComputing} alt='Icone Cloud Computing'/>Cloud Computing</li>
+                            <li className='list-item-competence'><img className='list-icon' src={DevOps} alt='Icone DevOps'/>DevOps</li>
                         </ul>
                         <ul>
                             <h3 className='competences-title'>Divers</h3>
                             <li className='list-item-competence'><img className='list-icon' src={Git} alt='Icone Git'/>Git</li>
                             <li className='list-item-competence'><img className='list-icon' src={Github} alt='Icone Github'/>Github</li>
-                            <li className='list-item-competence'><img className='list-icon' src={Linux} alt='Icone Linux'/>Linux</li>
+                            <li className='list-item-competence'><img className='list-icon' src={Linux} alt='Icone Linux OS'/>Linux OS</li>
                             <li className='list-item-competence'><img className='list-icon' src={Windows} alt='Icone Windows'/>Windows</li>
                             <li className='list-item-competence'><img className='list-icon' src={Terminal} alt='Icone Terminal'/>Bash / PowerShell</li>
+                            <li className='list-item-competence'><img className='list-icon' src={ManageProject} alt='Icone Gestion de projet'/>Gestion de projet</li>
+                            <li className='list-item-competence'><img className='list-icon' src={UML} alt='Icone UML'/>UML</li>
                             <li className='list-item-competence'><img className='list-icon' src={Python} alt='Icone Python'/>Python</li>
                             <li className='list-item-competence'><img className='list-icon' src={ChatGPT} alt='Icone ChatGPT'/>ChatGPT</li>
-                            {/* <li className='list-item-competence'><img className='list-icon' src={GreenIT} alt='Icone Green IT'/>Green IT</li> */}
-                            {/* <li className='list-item-competence'><img className='list-icon' src={PyCharm} alt='Icone PyCharm'/>PyCharm</li> */}
+                            <li className='list-item-competence'><img className='list-icon' src={GreenIT} alt='Icone Green IT'/>Green IT</li>
+                            <li className='list-item-competence'><img className='list-icon' src={PyCharm} alt='Icone PyCharm'/>PyCharm</li>
                             <li className='list-item-competence'><img className='list-icon' src={VSC} alt='Icone Visual Studio Code'/>Visual Studio Code</li>
                         </ul>
                     </div>
