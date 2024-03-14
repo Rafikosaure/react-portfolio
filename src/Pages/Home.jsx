@@ -49,7 +49,7 @@ import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
 
 function Home() {
-    const { ref: myPresentation, inView: myPresentationIsVisible } = useInView();
+    // const { ref: myPresentation, inView: myPresentationIsVisible } = useInView();
     const { ref: myPicture, inView: myPictureIsVisible } = useInView();
     const { ref: revealCitation, inView: myCitationIsVisible } = useInView();
     const { ref: myCompetences, inView: myCompetencesAreVisible } = useInView();
@@ -71,8 +71,9 @@ function Home() {
                         de A à Z
                     </p>
                 </div>
-                {/* SECTION BLANCHE */}
-                <div ref={myPresentation} className={`${'section section-blanche'} ${'reveal'} ${myPresentationIsVisible ? 'reveal-visible' : ''}`}>
+                {/* SECTION BLANCHE 1 */}
+                {/* <div className='section section-blanche' ref={myPresentation} className={`${'section section-blanche'} ${'reveal'} ${myPresentationIsVisible ? 'reveal-visible' : ''}`}> */}
+                <div className='section section-blanche'>
                     <h2>À propos de moi</h2>
                     <img
                         src={Profile2}
@@ -126,11 +127,11 @@ function Home() {
                         {citation}
                     </div>
                 </div>
-                {/* SECTION GRISE 1 */}
+                {/* SECTION GRISE 3 */}
                 <div className="section section-grise1">
                 </div>
-                {/* SECTION BLANCHE */}
-                <div className="section">
+                {/* SECTION BLANCHE 2 */}
+                <div className="section section-top">
                     <div ref={myCompetences} className={`${'reveal'} ${myCompetencesAreVisible ? 'reveal-visible' : ''}`}>
                         <h2 className='div-competences-main-title'>Mes Compétences</h2>
                         <div className='div-competences-orientation'>
@@ -185,8 +186,8 @@ function Home() {
                 </div>
                 </div>
                 
-                {/* SECTION GRISE 2 */}
-                <div ref={myPortfolio} className={`${'section section-grise2'}`}>
+                {/* SECTION GRISE 4 */}
+                <div ref={myPortfolio} className={`${'section section-grise2 section-top'}`}>
                     <div className={`${'reveal'} ${myPortfolioIsVisible ? 'reveal-visible' : ''}`}>
                         <h2 id='portfolio'>Portfolio</h2>
                         <div className="projects-cardslist">
