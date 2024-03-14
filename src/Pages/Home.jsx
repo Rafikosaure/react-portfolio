@@ -40,6 +40,7 @@ import Architecture from '../Images/architecture_logicielle.png'
 import CloudComputing from '../Images/cloud_computing.png'
 import UML from '../Images/uml.png'
 import ManageProject from '../Images/gestion_projet.png'
+import GithubIcon from '../Images/github.svg'
 import CV_File from '../CV/CV_BenSadi_Rafik.pdf'
 import Card from '../Components/Card'
 import projects from '../Datas/projects.json'
@@ -113,6 +114,7 @@ function Home() {
                                 <Link className='presentation-link' to="https://www.linkedin.com/in/rafikbensadi" target="_blank"
                                 rel="noopener noreferrer"><img className='list-icon' src={LinkedIn} alt='Icone LinkedIn'/>Consulter mon profil LinkedIn</Link>
                                 <a className='presentation-link' target='_blank' rel='noopener noreferrer' href={CV_File}><img className='list-icon' src={CV_Icon} alt='Icone CV'/>Consulter mon Curriculum Vitae</a>
+                                <Link className='presentation-link' to="https://github.com/Rafikosaure" target="_blank"><img className='list-icon' src={GithubIcon} alt="Icone Github" />Consulter mon compte Github</Link>
                             </div>
                             
                         </div>
@@ -130,9 +132,9 @@ function Home() {
                 {/* SECTION BLANCHE */}
                 <div className="section">
                     <div ref={myCompetences} className={`${'reveal'} ${myCompetencesAreVisible ? 'reveal-visible' : ''}`}>
-                        <h2>Mes Compétences</h2>
+                        <h2 className='div-competences-main-title'>Mes Compétences</h2>
                         <div className='div-competences-orientation'>
-                        <ul>
+                        <ul className='unordered-list-competences'>
                             <h3 className='competences-title'>Frontend</h3>
                             <li className='list-item-competence'><img className='list-icon' src={React} alt='Icone ReactJS'/>React JS</li>
                             <li className='list-item-competence'><img className='list-icon' src={Redux} alt='Icone Redux'/>Redux</li>
@@ -147,7 +149,7 @@ function Home() {
                             <li className='list-item-competence'><img className='list-icon' src={Webflow} alt='Icone Webflow'/>Webflow</li>
                             <li className='list-item-competence'><img className='list-icon' src={Accessibilité} alt='Icone Accessibilité'/>Accessibilité</li>
                         </ul>
-                        <ul>
+                        <ul className='unordered-list-competences'>
                             <h3 className='competences-title'>Backend</h3>
                             <li className='list-item-competence'><img className='list-icon' src={SQL} alt='Icone SQL'/>SQL</li>
                             <li className='list-item-competence'><img className='list-icon' src={MongoDB} alt='Icone MongoDB'/>MongoDB</li> 
@@ -164,8 +166,8 @@ function Home() {
                             <li className='list-item-competence'><img className='list-icon' src={CloudComputing} alt='Icone Cloud Computing'/>Cloud Computing</li>
                             <li className='list-item-competence'><img className='list-icon' src={DevOps} alt='Icone DevOps'/>DevOps</li>
                         </ul>
-                        <ul>
-                            <h3 className='competences-title'>Divers</h3>
+                        <ul className='unordered-list-competences'>
+                            <h3 className='competences-title'>Compétences <br />complémentaires</h3>
                             <li className='list-item-competence'><img className='list-icon' src={Git} alt='Icone Git'/>Git</li>
                             <li className='list-item-competence'><img className='list-icon' src={Github} alt='Icone Github'/>Github</li>
                             <li className='list-item-competence'><img className='list-icon' src={Linux} alt='Icone Linux OS'/>Linux OS</li>
