@@ -50,7 +50,7 @@ import { useInView } from 'react-intersection-observer'
 
 function Home() {
     // const { ref: myPresentation, inView: myPresentationIsVisible } = useInView();
-    const { ref: myPicture, inView: myPictureIsVisible } = useInView();
+    // const { ref: myPicture, inView: myPictureIsVisible } = useInView();
     const { ref: revealCitation, inView: myCitationIsVisible } = useInView();
     const { ref: myCompetences, inView: myCompetencesAreVisible } = useInView();
     const { ref: myPortfolio, inView: myPortfolioIsVisible } = useInView();
@@ -78,7 +78,8 @@ function Home() {
                     <img
                         src={Profile2}
                         alt="Rafik Ben Sadi en train de travailler"
-                        ref={myPicture} className={`${'col-contenu image-shadow'} ${'reveal-picture'} ${myPictureIsVisible ? 'reveal-picture-visible' : ''}`}
+                        // ref={myPicture} className={`${'col-contenu image-shadow'} ${'reveal-picture'} ${myPictureIsVisible ? 'reveal-picture-visible' : ''}`}
+                        className='col-contenu image-shadow'
                     />
                     <div className="col-contenu float-right">
                         <div className="texte-avec-ligne-verticale">
