@@ -94,10 +94,10 @@ function Home() {
                                 j'ai décidé de me reconvertir dans le
                                 développement informatique en suivant des cours
                                 sur le <strong>langage Python</strong> sur
-                                Udemy.com. Enfin, je me suis spécialisé dans le
-                                développement Web en suivant le parcours
+                                Udemy.com. Ayant finalement décidé de me spécialiser dans le <strong>développement Web</strong>, j'ai suivi le parcours
                                 diplomant d'<strong>OpenClassrooms.com</strong> (anciennement
-                                Site du Zéro). <br />
+                                Site du Zéro) avant de passer le titre professionnel 
+                                de <strong>concepteur-développeur d'applications</strong> au sein de SIELI.<br />
                                 Au fil de mon parcours dans le développement,
                                 j'ai réalisé de nombreux projets très divers :
                                 des programmes simples en mode console, par
