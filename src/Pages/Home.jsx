@@ -193,7 +193,7 @@ function Home() {
                             <ul className='unordered-list-competences'>
                                 <h3 className='competences-title'>Gestion de projet digital</h3>
                                 <li className='list-item-competence'><img className='list-icon' src={Architecture} alt='Icone Architecture logicielle'/>Architecture logicielle</li>
-                                <li className='list-item-competence'><img className='list-icon' src={UML} alt='Icone UML'/>UML</li>
+                                <li className='list-item-competence'><img className='list-icon' src={UML} alt='Icone UML'/>UML / Merise</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Trello} alt='Icone Trello'/>Trello</li>
                                 <li className='list-item-competence'><img className='list-icon' src={GreenIT} alt='Icone Green IT'/>Green IT</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Agile} alt='Icone agile'/>Agile</li>
