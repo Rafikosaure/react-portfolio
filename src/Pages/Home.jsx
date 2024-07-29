@@ -150,9 +150,9 @@ function Home() {
                                 <h3 className='competences-title'>UI-UX Design</h3>
                                 <li className='list-item-competence'><img className='list-icon' src={Culture} alt='Icone Culture'/>Culture numérique</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Figma} alt='Icone Figma'/>Figma</li>
+                                <li className='list-item-competence'><img className='list-icon' src={ResponsiveDesign} alt='Icone Responsive design'/>Responsive design</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Accessibilité} alt='Icone Accessibilité'/>Accessibilité</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Webflow} alt='Icone Webflow'/>Webflow</li>
-                                <li className='list-item-competence'><img className='list-icon' src={ResponsiveDesign} alt='Icone Responsive design'/>Responsive design</li>
                                 <li className='list-item-competence'><img className='list-icon' src={SEO} alt='Icone SEO'/>SEO</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Marketing} alt='Icone Marketing digital'/>Marketing digital</li>
                             </ul>
