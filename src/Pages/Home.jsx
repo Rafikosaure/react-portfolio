@@ -51,6 +51,7 @@ import Jest from '../Images/jest.png'
 import Culture from '../Images/culture.png'
 import Marketing from '../Images/marketing_digital.png'
 import ResponsiveDesign from '../Images/responsive_design.png'
+import Vercel from '../Images/vercel.svg'
 import CV_File from '../CV/CV_BenSadi_Rafik.pdf'
 import Card from '../Components/Card'
 import projects from '../Datas/projects.json'
@@ -190,6 +191,7 @@ function Home() {
                                 <li className='list-item-competence'><img className='list-icon' src={Jest} alt='Icone Jest'/>Jest</li>
                                 <li className='list-item-competence'><img className='list-icon' src={LinuxServer} alt='Icone Serveurs Linux'/>Serveurs Linux</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Jenkins} alt='Icone Jenkins'/>Jenkins</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Vercel} alt='Icone AWS'/>Vercel</li>
                                 <li className='list-item-competence'><img className='list-icon' src={AWS} alt='Icone AWS'/>Cloud AWS</li>
                             </ul>
                             <ul className='unordered-list-competences'>
