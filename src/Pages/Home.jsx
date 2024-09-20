@@ -183,6 +183,15 @@ function Home() {
                                 {/* <li className='list-item-competence'><img className='list-icon' src={DevOps} alt='Icone DevOps'/>DevOps</li> */}
                             </ul>
                             <ul className='unordered-list-competences'>
+                                <h3 className='competences-title'>Gestion de projet digital</h3>
+                                <li className='list-item-competence'><img className='list-icon' src={Architecture} alt='Icone Architecture logicielle'/>Architecture logicielle</li>
+                                <li className='list-item-competence'><img className='list-icon' src={UML} alt='Icone UML'/>UML / Merise</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Trello} alt='Icone Trello'/>Trello</li>
+                                <li className='list-item-competence'><img className='list-icon' src={GreenIT} alt='Icone Green IT'/>Green IT</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Agile} alt='Icone agile'/>Agile</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Waterfall} alt='Icone waterfall'/>Cascade</li>
+                            </ul>
+                            <ul className='unordered-list-competences'>
                                 <h3 className='competences-title'>DevOps</h3>
                                 <li className='list-item-competence'><img className='list-icon' src={Git} alt='Icone Git'/>Git</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Github} alt='Icone Github'/>Github</li>
@@ -193,15 +202,6 @@ function Home() {
                                 <li className='list-item-competence'><img className='list-icon' src={Jenkins} alt='Icone Jenkins'/>Jenkins</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Vercel} alt='Icone AWS'/>Vercel</li>
                                 <li className='list-item-competence'><img className='list-icon' src={AWS} alt='Icone AWS'/>Cloud AWS</li>
-                            </ul>
-                            <ul className='unordered-list-competences'>
-                                <h3 className='competences-title'>Gestion de projet digital</h3>
-                                <li className='list-item-competence'><img className='list-icon' src={Architecture} alt='Icone Architecture logicielle'/>Architecture logicielle</li>
-                                <li className='list-item-competence'><img className='list-icon' src={UML} alt='Icone UML'/>UML / Merise</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Trello} alt='Icone Trello'/>Trello</li>
-                                <li className='list-item-competence'><img className='list-icon' src={GreenIT} alt='Icone Green IT'/>Green IT</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Agile} alt='Icone agile'/>Agile</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Waterfall} alt='Icone waterfall'/>Cascade</li>
                             </ul>
                             <ul className='unordered-list-competences'>
                                 <h3 className='competences-title'>Side skills</h3>
