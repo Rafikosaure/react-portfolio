@@ -47,6 +47,7 @@ import Jenkins from '../Images/jenkins.svg'
 import Agile from '../Images/agile.png'
 import Waterfall from '../Images/waterfall.webp'
 import Trello from '../Images/trello.svg'
+import TeamGantt from '../Images/teamgantt.png'
 import Jest from '../Images/jest.png'
 import Culture from '../Images/culture.png'
 import Marketing from '../Images/marketing_digital.png'
@@ -187,9 +188,10 @@ function Home() {
                                 <li className='list-item-competence'><img className='list-icon' src={Architecture} alt='Icone Architecture logicielle'/>Architecture logicielle</li>
                                 <li className='list-item-competence'><img className='list-icon' src={UML} alt='Icone UML'/>UML / Merise</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Trello} alt='Icone Trello'/>Trello</li>
+                                <li className='list-item-competence'><img className='list-icon' src={TeamGantt} alt='Icone TeamGantt'/>TeamGantt</li>
                                 <li className='list-item-competence'><img className='list-icon' src={GreenIT} alt='Icone Green IT'/>Green IT</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Agile} alt='Icone agile'/>Agile</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Waterfall} alt='Icone waterfall'/>Cascade</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Agile} alt='Icone agile'/>Méthodologies Agiles</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Waterfall} alt='Icone waterfall'/>Méthode en Cascade</li>
                             </ul>
                             <ul className='unordered-list-competences'>
                                 <h3 className='competences-title'>DevOps</h3>
