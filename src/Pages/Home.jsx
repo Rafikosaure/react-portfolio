@@ -44,6 +44,7 @@ import GithubIcon from '../Images/github.svg'
 import MySQL from '../Images/mysql.svg'
 import AWS from '../Images/aws.svg'
 import Jenkins from '../Images/jenkins.svg'
+import GitHubActions from '../Images/github_actions.svg'
 import Agile from '../Images/agile.png'
 import Waterfall from '../Images/waterfall.webp'
 import Trello from '../Images/trello.svg'
@@ -200,8 +201,9 @@ function Home() {
                                 <li className='list-item-competence'><img className='list-icon' src={Docker} alt='Icone Docker'/>Docker</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Terminal} alt='Icone Terminal'/>Bash / PowerShell</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Jest} alt='Icone Jest'/>Jest</li>
-                                <li className='list-item-competence'><img className='list-icon' src={LinuxServer} alt='Icone Serveurs Linux'/>Serveurs Linux</li>
+                                <li className='list-item-competence'><img className='list-icon' src={GitHubActions} alt='Icone Github Actions'/>Github Actions</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Jenkins} alt='Icone Jenkins'/>Jenkins</li>
+                                <li className='list-item-competence'><img className='list-icon' src={LinuxServer} alt='Icone Serveurs Linux'/>Serveurs Linux</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Vercel} alt='Icone AWS'/>Vercel</li>
                                 <li className='list-item-competence'><img className='list-icon' src={AWS} alt='Icone AWS'/>Cloud AWS</li>
                             </ul>
