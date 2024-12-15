@@ -33,7 +33,7 @@ import Postman from '../Images/postman.png'
 import SEO from '../Images/SEO.png'
 import Security from '../Images/cyber-securite.png'
 import Webflow from '../Images/webflow.svg'
-import LinuxServer from '../Images/serveur_linux.png'
+import Ubuntu from '../Images/serveur_linux.png'
 // import DevOps from '../Images/devops.png'
 import Redux from '../Images/redux.svg'
 import Architecture from '../Images/architecture_logicielle.png'
@@ -45,6 +45,7 @@ import MySQL from '../Images/mysql.svg'
 import AWS from '../Images/aws.svg'
 import Jenkins from '../Images/jenkins.svg'
 import GitHubActions from '../Images/github_actions.svg'
+import cPanel from '../Images/cpanel.png'
 import Agile from '../Images/agile.png'
 import Waterfall from '../Images/waterfall.webp'
 import Trello from '../Images/trello.svg'
@@ -54,6 +55,22 @@ import Culture from '../Images/culture.png'
 import Marketing from '../Images/marketing_digital.png'
 import ResponsiveDesign from '../Images/responsive_design.png'
 import Vercel from '../Images/vercel.svg'
+import Apache from '../Images/apache.svg'
+import ViteJS from '../Images/vitejs.svg'
+import Swagger from '../Images/swagger.svg'
+import Nodemailer from '../Images/nodemailer.png'
+import Playwright from '../Images/playwright.svg'
+import C from '../Images/c.svg'
+import Lighthouse from '../Images/lighthouse.svg'
+import Mongoose from '../Images/mongoose.js.svg'
+import Sequelize from '../Images/sequelize.svg'
+import SQLite from '../Images/sqlite.svg'
+import GIMP from '../Images/gimp.svg'
+import Canva from '../Images/canva.svg'
+import Inkscape from '../Images/inkscape.svg'
+import Notion from '../Images/notion.svg'
+import Miro from '../Images/miro.png'
+import Slack from '../Images/slack.svg'
 import CV_File from '../CV/CV_BenSadi_Rafik.pdf'
 import Card from '../Components/Card'
 import projects from '../Datas/projects.json'
@@ -153,10 +170,14 @@ function Home() {
                                 <h3 className='competences-title'>UI-UX Design</h3>
                                 <li className='list-item-competence'><img className='list-icon' src={Culture} alt='Icone Culture'/>Culture numérique</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Figma} alt='Icone Figma'/>Figma</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Webflow} alt='Icone Webflow'/>Webflow</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Canva} alt='Icone Canva'/>Canva</li>
+                                <li className='list-item-competence'><img className='list-icon' src={GIMP} alt='Icone GIMP'/>GIMP</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Inkscape} alt='Icone Inkscape'/>Inkscape</li>
                                 <li className='list-item-competence'><img className='list-icon' src={ResponsiveDesign} alt='Icone Responsive design'/>Responsive design</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Accessibilité} alt='Icone Accessibilité'/>Accessibilité</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Webflow} alt='Icone Webflow'/>Webflow</li>
                                 <li className='list-item-competence'><img className='list-icon' src={SEO} alt='Icone SEO'/>SEO</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Lighthouse} alt='Icone Lighthouse'/>Lighthouse</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Marketing} alt='Icone Marketing digital'/>Marketing digital</li>
                             </ul>
                             <ul className='unordered-list-competences'>
@@ -165,6 +186,8 @@ function Home() {
                                 <li className='list-item-competence'><img className='list-icon' src={Redux} alt='Icone Redux'/>Redux</li>
                                 <li className='list-item-competence'><img className='list-icon' src={TypeScript} alt='Icone TypeScript'/>TypeScript</li>
                                 <li className='list-item-competence'><img className='list-icon' src={JavaScript} alt='Icone JavaScript'/>JavaScript</li>
+                                <li className='list-item-competence'><img className='list-icon' src={ViteJS} alt='Icone ViteJS'/>Vite JS</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Swagger} alt='Icone Swagger'/>Swagger</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Html5} alt='Icone HTML5'/>HTML5</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Css3} alt='Icone CSS3'/>CSS3</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Bootstrap} alt='Icone Bootstrap'/>Bootstrap</li>
@@ -174,12 +197,16 @@ function Home() {
                             <ul className='unordered-list-competences'>
                                 <h3 className='competences-title'>Backend</h3>
                                 <li className='list-item-competence'><img className='list-icon' src={MySQL} alt='Icone MySQL'/>MySQL</li>
-                                <li className='list-item-competence'><img className='list-icon' src={MongoDB} alt='Icone MongoDB'/>MongoDB</li> 
+                                <li className='list-item-competence'><img className='list-icon' src={Sequelize} alt='Icone Sequelize'/>Sequelize</li>
+                                <li className='list-item-competence'><img className='list-icon' src={MongoDB} alt='Icone MongoDB'/>MongoDB</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Mongoose} alt='Icone Mongoose'/>Mongoose</li> 
                                 {/* <li className='list-item-competence'><img className='list-icon' src={Django} alt='Icone Django'/>Django</li> */}
                                 <li className='list-item-competence'><img className='list-icon' src={NodeJS} alt='Icone NodeJS'/>Node JS</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Express} alt='Icone ExpressJS'/>Express JS</li>
-                                 <li className='list-item-competence'><img className='list-icon' src={Security} alt='Icone Cyber-sécurité'/>Cyber-sécurité</li>
+                                 <li className='list-item-competence'><img className='list-icon' src={Security} alt='Icone Cyber-sécurité'/>Cybersécurité</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Api} alt='Icone API'/>API REST</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Nodemailer} alt='Icone Nodemailer'/>Nodemailer</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Playwright} alt='Icone Playwright'/>Playwright</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Postman} alt='Icone Postman'/>Postman</li>
                                 
                                 {/* <li className='list-item-competence'><img className='list-icon' src={DevOps} alt='Icone DevOps'/>DevOps</li> */}
@@ -189,6 +216,9 @@ function Home() {
                                 <li className='list-item-competence'><img className='list-icon' src={Architecture} alt='Icone Architecture logicielle'/>Architecture logicielle</li>
                                 <li className='list-item-competence'><img className='list-icon' src={UML} alt='Icone UML'/>UML / Merise</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Trello} alt='Icone Trello'/>Trello</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Notion} alt='Icone Notion'/>Notion</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Miro} alt='Icone Miro'/>Miro</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Slack} alt='Icone Slack'/>Slack</li>
                                 <li className='list-item-competence'><img className='list-icon' src={TeamGantt} alt='Icone TeamGantt'/>TeamGantt</li>
                                 <li className='list-item-competence'><img className='list-icon' src={GreenIT} alt='Icone Green IT'/>Green IT</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Agile} alt='Icone agile'/>Méthodologies Agiles</li>
@@ -203,16 +233,20 @@ function Home() {
                                 <li className='list-item-competence'><img className='list-icon' src={Jest} alt='Icone Jest'/>Jest</li>
                                 <li className='list-item-competence'><img className='list-icon' src={GitHubActions} alt='Icone Github Actions'/>Github Actions</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Jenkins} alt='Icone Jenkins'/>Jenkins</li>
-                                <li className='list-item-competence'><img className='list-icon' src={LinuxServer} alt='Icone Serveurs Linux'/>Serveurs Linux</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Linux} alt='Icone Linux'/>Linux</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Apache} alt='Icone Apache'/>Apache</li>
+                                <li className='list-item-competence'><img className='list-icon' src={cPanel} alt='Icone cPanel'/>cPanel</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Vercel} alt='Icone AWS'/>Vercel</li>
                                 <li className='list-item-competence'><img className='list-icon' src={AWS} alt='Icone AWS'/>Cloud AWS</li>
                             </ul>
                             <ul className='unordered-list-competences'>
                                 <h3 className='competences-title'>Side skills</h3>
                                 <li className='list-item-competence'><img className='list-icon' src={Python} alt='Icone Python'/>Python</li>
-                                <li className='list-item-competence'><img className='list-icon' src={SQL} alt='Icone SQL'/>SQL</li>
+                                <li className='list-item-competence'><img className='list-icon' src={SQL} alt='Icone SQL'/>Langage SQL</li>
+                                <li className='list-item-competence'><img className='list-icon' src={SQLite} alt='Icone SQLite'/>SQLite</li>  
+                                <li className='list-item-competence'><img className='list-icon' src={C} alt='Icone C'/>C</li>
                                 <li className='list-item-competence'><img className='list-icon' src={ChatGPT} alt='Icone ChatGPT'/>ChatGPT</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Linux} alt='Icone Linux OS'/>Linux OS</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Ubuntu} alt='Icone Linux OS'/>Ubuntu OS</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Windows} alt='Icone Windows'/>Windows OS</li>
                                 <li className='list-item-competence'><img className='list-icon' src={PyCharm} alt='Icone PyCharm'/>PyCharm</li>
                                 <li className='list-item-competence'><img className='list-icon' src={VSC} alt='Icone Visual Studio Code'/>Visual Studio Code</li>
