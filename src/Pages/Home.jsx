@@ -244,7 +244,7 @@ function Home() {
                             <ul className='unordered-list-competences'>
                                 <h3 className='competences-title'>Side skills</h3>
                                 <li className='list-item-competence'><img className='list-icon' src={Python} alt='Icone Python'/>Python</li>
-                                <li className='list-item-competence'><img className='list-icon' src={SQL} alt='Icone SQL'/>Langage SQL</li>
+                                <li className='list-item-competence'><img className='list-icon' src={SQL} alt='Icone SQL'/>SQL</li>
                                 <li className='list-item-competence'><img className='list-icon' src={SQLite} alt='Icone SQLite'/>SQLite</li>  
                                 <li className='list-item-competence'><img className='list-icon' src={C} alt='Icone C'/>C</li>
                                 <li className='list-item-competence'><img className='list-icon' src={ChatGPT} alt='Icone ChatGPT'/>ChatGPT</li>
