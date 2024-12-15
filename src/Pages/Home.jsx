@@ -71,6 +71,7 @@ import Inkscape from '../Images/inkscape.svg'
 import Notion from '../Images/notion.svg'
 import Miro from '../Images/miro.png'
 import Slack from '../Images/slack.svg'
+import Discord from '../Images/discord.svg'
 import CV_File from '../CV/CV_BenSadi_Rafik.pdf'
 import Card from '../Components/Card'
 import projects from '../Datas/projects.json'
@@ -219,6 +220,7 @@ function Home() {
                                 <li className='list-item-competence'><img className='list-icon' src={Notion} alt='Icone Notion'/>Notion</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Miro} alt='Icone Miro'/>Miro</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Slack} alt='Icone Slack'/>Slack</li>
+                                <li className='list-item-competence'><img className='list-icon' src={Discord} alt='Icone Discord'/>Discord</li>
                                 <li className='list-item-competence'><img className='list-icon' src={TeamGantt} alt='Icone TeamGantt'/>TeamGantt</li>
                                 <li className='list-item-competence'><img className='list-icon' src={GreenIT} alt='Icone Green IT'/>Green IT</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Agile} alt='Icone agile'/>Méthodologies Agiles</li>
