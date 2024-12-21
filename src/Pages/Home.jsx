@@ -72,6 +72,7 @@ import Notion from '../Images/notion.svg'
 import Miro from '../Images/miro.png'
 import Slack from '../Images/slack.svg'
 import Discord from '../Images/discord.svg'
+import NOC from '../Images/noc_storage.png'
 import CV_File from '../CV/CV_BenSadi_Rafik.pdf'
 import Card from '../Components/Card'
 import projects from '../Datas/projects.json'
@@ -238,6 +239,7 @@ function Home() {
                                 <li className='list-item-competence'><img className='list-icon' src={Linux} alt='Icone Linux'/>Linux</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Apache} alt='Icone Apache'/>Apache</li>
                                 <li className='list-item-competence'><img className='list-icon' src={cPanel} alt='Icone cPanel'/>cPanel</li>
+                                <li className='list-item-competence'><img className='list-icon' src={NOC} alt='Icone NOC Storage'/>NOC Storage</li>
                                 <li className='list-item-competence'><img className='list-icon' src={Vercel} alt='Icone AWS'/>Vercel</li>
                                 <li className='list-item-competence'><img className='list-icon' src={AWS} alt='Icone AWS'/>Cloud AWS</li>
                             </ul>
