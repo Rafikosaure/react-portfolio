@@ -1,4 +1,4 @@
-import '../Styles/Styles.scss'
+import '../Styles/CommonStyles.scss'
 import Profile from '../Images/profile.webp'
 
 function Footer() {

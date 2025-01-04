@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
-import '../Styles/Styles.scss'
+import '../Styles/CommonStyles.scss'
 
 function Card({ project }) {
     const { ref: myCard, inView: myCardIsVisible } = useInView();

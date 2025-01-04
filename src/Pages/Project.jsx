@@ -1,5 +1,5 @@
-import '../Styles/Styles.scss'
-import Projects from '../Datas/projects.json'
+import '../Styles/CommonStyles.scss'
+import Projects from '../Data/projects.json'
 import Slideshow from '../Components/Slideshow'
 import { useParams } from 'react-router'
 import { Link } from 'react-router-dom'

@@ -1,90 +1,19 @@
-import '../Styles/Styles.scss'
+import '../Styles/CommonStyles.scss'
 import Profile2 from '../Images/profile2.webp'
-import Html5 from '../Images/html5.svg'
-import Css3 from '../Images/css3.svg'
-import Api from '../Images/api.png'
-// import Django from '../Images/django.svg'
-import Express from '../Images/express.png'
-import JavaScript from '../Images/javascript.png'
-import Linux from '../Images/linux.png'
-import MongoDB from '../Images/mongodb.svg'
-import NodeJS from '../Images/nodejs.svg'
-import PyCharm from '../Images/pycharm.png'
-import Python from '../Images/python.svg'
-import React from '../Images/react.png'
-import SQL from '../Images/sql.png'
-import VSC from '../Images/vsc.svg'
-import Windows from '../Images/windows.png'
 import LinkedIn from '../Images/linkedin.svg'
 import CV_Icon from '../Images/cv.png'
-import Sass from '../Images/sass.svg'
-import Github from '../Images/github.svg'
-import Figma from '../Images/figma.svg'
-import Git from '../Images/git.png'
-import Bootstrap from '../Images/bootstrap.svg'
-import Docker from '../Images/docker.svg'
-import ChatGPT from '../Images/chatgpt.svg'
-import GreenIT from '../Images/greenit.png'
-import Accessibilité from '../Images/accessibilité.png'
-import TypeScript from '../Images/typescript.png'
-import Tailwind from '../Images/tailwind.svg'
-import Terminal from '../Images/console.png'
-import Postman from '../Images/postman.png'
-import SEO from '../Images/SEO.png'
-import Security from '../Images/cyber-securite.png'
-import Webflow from '../Images/webflow.svg'
-import Ubuntu from '../Images/serveur_linux.png'
-// import DevOps from '../Images/devops.png'
-import Redux from '../Images/redux.svg'
-import Architecture from '../Images/architecture_logicielle.png'
-// import CloudComputing from '../Images/cloud_computing.png'
-import UML from '../Images/uml.png'
-// import ManageProject from '../Images/gestion_projet.png'
 import GithubIcon from '../Images/github.svg'
-import MySQL from '../Images/mysql.svg'
-import AWS from '../Images/aws.svg'
-import Jenkins from '../Images/jenkins.svg'
-import GitHubActions from '../Images/github_actions.svg'
-import cPanel from '../Images/cpanel.png'
-import Agile from '../Images/agile.png'
-import Waterfall from '../Images/waterfall.webp'
-import Trello from '../Images/trello.svg'
-import TeamGantt from '../Images/teamgantt.png'
-import Jest from '../Images/jest.png'
-import Culture from '../Images/culture.png'
-import Marketing from '../Images/marketing_digital.png'
-import ResponsiveDesign from '../Images/responsive_design.png'
-import Vercel from '../Images/vercel.svg'
-import Apache from '../Images/apache.svg'
-import ViteJS from '../Images/vitejs.svg'
-import Swagger from '../Images/swagger.svg'
-import Nodemailer from '../Images/nodemailer.png'
-import Playwright from '../Images/playwright.svg'
-import C from '../Images/c.svg'
-import Lighthouse from '../Images/lighthouse.svg'
-import Mongoose from '../Images/mongoose.js.svg'
-import Sequelize from '../Images/sequelize.svg'
-import SQLite from '../Images/sqlite.svg'
-import GIMP from '../Images/gimp.svg'
-import Canva from '../Images/canva.svg'
-import Inkscape from '../Images/inkscape.svg'
-import Notion from '../Images/notion.svg'
-import Miro from '../Images/miro.png'
-import Slack from '../Images/slack.svg'
-import Discord from '../Images/discord.svg'
-import NOC from '../Images/noc_storage.png'
 import CV_File from '../CV/CV_BenSadi_Rafik.pdf'
 import Card from '../Components/Card'
-import projects from '../Datas/projects.json'
+import projects from '../Data/projects.json'
+import skills from '../Data/skills.json'
+import SkillsList from '../Components/SkillsList'
 import { useTypingEffect } from '../Hooks/Typing-effect'
 import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
 
 function Home() {
-    // const { ref: myPresentation, inView: myPresentationIsVisible } = useInView();
-    // const { ref: myPicture, inView: myPictureIsVisible } = useInView();
     const { ref: revealCitation, inView: myCitationIsVisible } = useInView();
-    const { ref: myCompetences, inView: myCompetencesAreVisible } = useInView();
     const { ref: myPortfolio, inView: myPortfolioIsVisible } = useInView();
     const text = `"Un bon programmeur est quelqu’un qui regarde toujours des deux côtés avant de traverser une rue à sens unique." - Doug Linder, historien et développeur`
     const citation = useTypingEffect(text, 30)
@@ -104,13 +33,11 @@ function Home() {
                     </p>
                 </div>
                 {/* SECTION BLANCHE 1 */}
-                {/* <div className='section section-blanche' ref={myPresentation} className={`${'section section-blanche'} ${'reveal'} ${myPresentationIsVisible ? 'reveal-visible' : ''}`}> */}
                 <div className='section section-blanche'>
                     <h2>À propos de moi</h2>
                     <img
                         src={Profile2}
                         alt="Rafik Ben Sadi en train de travailler"
-                        // ref={myPicture} className={`${'col-contenu image-shadow'} ${'reveal-picture'} ${myPictureIsVisible ? 'reveal-picture-visible' : ''}`}
                         className='col-contenu image-shadow'
                     />
                     <div className="col-contenu float-right">
@@ -165,98 +92,16 @@ function Home() {
                 </div>
                 {/* SECTION BLANCHE 2 */}
                 <div className="section section-top">
-                    <div ref={myCompetences} className={`${'reveal'} ${myCompetencesAreVisible ? 'reveal-visible' : ''}`}>
-                        <h2 className='div-competences-main-title'>Mes Compétences</h2>
-                        <div className='div-competences-orientation'>
-                            <ul className='unordered-list-competences'>
-                                <h3 className='competences-title'>UI-UX Design</h3>
-                                <li className='list-item-competence'><img className='list-icon' src={Culture} alt='Icone Culture'/>Culture numérique</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Figma} alt='Icone Figma'/>Figma</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Webflow} alt='Icone Webflow'/>Webflow</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Canva} alt='Icone Canva'/>Canva</li>
-                                <li className='list-item-competence'><img className='list-icon' src={GIMP} alt='Icone GIMP'/>GIMP</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Inkscape} alt='Icone Inkscape'/>Inkscape</li>
-                                <li className='list-item-competence'><img className='list-icon' src={ResponsiveDesign} alt='Icone Responsive design'/>Responsive design</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Accessibilité} alt='Icone Accessibilité'/>Accessibilité</li>
-                                <li className='list-item-competence'><img className='list-icon' src={SEO} alt='Icone SEO'/>SEO</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Lighthouse} alt='Icone Lighthouse'/>Lighthouse</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Marketing} alt='Icone Marketing digital'/>Marketing digital</li>
-                            </ul>
-                            <ul className='unordered-list-competences'>
-                                <h3 className='competences-title'>Frontend</h3>
-                                <li className='list-item-competence'><img className='list-icon' src={React} alt='Icone ReactJS'/>React JS</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Redux} alt='Icone Redux'/>Redux</li>
-                                <li className='list-item-competence'><img className='list-icon' src={TypeScript} alt='Icone TypeScript'/>TypeScript</li>
-                                <li className='list-item-competence'><img className='list-icon' src={JavaScript} alt='Icone JavaScript'/>JavaScript</li>
-                                <li className='list-item-competence'><img className='list-icon' src={ViteJS} alt='Icone ViteJS'/>Vite JS</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Swagger} alt='Icone Swagger'/>Swagger</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Html5} alt='Icone HTML5'/>HTML5</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Css3} alt='Icone CSS3'/>CSS3</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Bootstrap} alt='Icone Bootstrap'/>Bootstrap</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Tailwind} alt='Icone Tailwind'/>Tailwind</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Sass} alt='Icone SASS'/>SASS</li>
-                            </ul>
-                            <ul className='unordered-list-competences'>
-                                <h3 className='competences-title'>Backend</h3>
-                                <li className='list-item-competence'><img className='list-icon' src={MySQL} alt='Icone MySQL'/>MySQL</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Sequelize} alt='Icone Sequelize'/>Sequelize</li>
-                                <li className='list-item-competence'><img className='list-icon' src={MongoDB} alt='Icone MongoDB'/>MongoDB</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Mongoose} alt='Icone Mongoose'/>Mongoose</li> 
-                                {/* <li className='list-item-competence'><img className='list-icon' src={Django} alt='Icone Django'/>Django</li> */}
-                                <li className='list-item-competence'><img className='list-icon' src={NodeJS} alt='Icone NodeJS'/>Node JS</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Express} alt='Icone ExpressJS'/>Express JS</li>
-                                 <li className='list-item-competence'><img className='list-icon' src={Security} alt='Icone Cyber-sécurité'/>Cybersécurité</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Api} alt='Icone API'/>API REST</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Nodemailer} alt='Icone Nodemailer'/>Nodemailer</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Playwright} alt='Icone Playwright'/>Playwright</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Postman} alt='Icone Postman'/>Postman</li>
-                                
-                                {/* <li className='list-item-competence'><img className='list-icon' src={DevOps} alt='Icone DevOps'/>DevOps</li> */}
-                            </ul>
-                            <ul className='unordered-list-competences'>
-                                <h3 className='competences-title'>Gestion de projet digital</h3>
-                                <li className='list-item-competence'><img className='list-icon' src={Architecture} alt='Icone Architecture logicielle'/>Architecture logicielle</li>
-                                <li className='list-item-competence'><img className='list-icon' src={UML} alt='Icone UML'/>UML / Merise</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Trello} alt='Icone Trello'/>Trello</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Notion} alt='Icone Notion'/>Notion</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Miro} alt='Icone Miro'/>Miro</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Slack} alt='Icone Slack'/>Slack</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Discord} alt='Icone Discord'/>Discord</li>
-                                <li className='list-item-competence'><img className='list-icon' src={TeamGantt} alt='Icone TeamGantt'/>TeamGantt</li>
-                                <li className='list-item-competence'><img className='list-icon' src={GreenIT} alt='Icone Green IT'/>Green IT</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Agile} alt='Icone agile'/>Méthodologies Agiles</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Waterfall} alt='Icone waterfall'/>Méthode en Cascade</li>
-                            </ul>
-                            <ul className='unordered-list-competences'>
-                                <h3 className='competences-title'>DevOps</h3>
-                                <li className='list-item-competence'><img className='list-icon' src={Git} alt='Icone Git'/>Git</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Github} alt='Icone Github'/>Github</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Docker} alt='Icone Docker'/>Docker</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Terminal} alt='Icone Terminal'/>Bash / PowerShell</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Jest} alt='Icone Jest'/>Jest</li>
-                                <li className='list-item-competence'><img className='list-icon' src={GitHubActions} alt='Icone Github Actions'/>Github Actions</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Jenkins} alt='Icone Jenkins'/>Jenkins</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Linux} alt='Icone Linux'/>Linux</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Apache} alt='Icone Apache'/>Apache</li>
-                                <li className='list-item-competence'><img className='list-icon' src={cPanel} alt='Icone cPanel'/>cPanel</li>
-                                <li className='list-item-competence'><img className='list-icon' src={NOC} alt='Icone NOC Storage'/>NOC Storage</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Vercel} alt='Icone AWS'/>Vercel</li>
-                                <li className='list-item-competence'><img className='list-icon' src={AWS} alt='Icone AWS'/>Cloud AWS</li>
-                            </ul>
-                            <ul className='unordered-list-competences'>
-                                <h3 className='competences-title'>Side skills</h3>
-                                <li className='list-item-competence'><img className='list-icon' src={Python} alt='Icone Python'/>Python</li>
-                                <li className='list-item-competence'><img className='list-icon' src={SQL} alt='Icone SQL'/>SQL</li>
-                                <li className='list-item-competence'><img className='list-icon' src={SQLite} alt='Icone SQLite'/>SQLite</li>  
-                                <li className='list-item-competence'><img className='list-icon' src={C} alt='Icone C'/>C</li>
-                                <li className='list-item-competence'><img className='list-icon' src={ChatGPT} alt='Icone ChatGPT'/>ChatGPT</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Ubuntu} alt='Icone Linux OS'/>Ubuntu OS</li>
-                                <li className='list-item-competence'><img className='list-icon' src={Windows} alt='Icone Windows'/>Windows OS</li>
-                                <li className='list-item-competence'><img className='list-icon' src={PyCharm} alt='Icone PyCharm'/>PyCharm</li>
-                                <li className='list-item-competence'><img className='list-icon' src={VSC} alt='Icone Visual Studio Code'/>Visual Studio Code</li>
-                            </ul>
-                        </div>
-                    </div>
+
+                    <h2 className='div-competences-main-title'>Mes Compétences</h2>
+
+                    <SkillsList data={skills[0]} animDirection='reverse' />
+                    <SkillsList data={skills[1]} animDirection='normal' />
+                    <SkillsList data={skills[2]} animDirection='reverse' />
+                    <SkillsList data={skills[3]} animDirection='normal' />
+                    <SkillsList data={skills[4]} animDirection='reverse' />
+                    <SkillsList data={skills[5]} animDirection='normal' />
+                    <SkillsList data={skills[6]} animDirection='reverse' />
                 </div>
                 
                 {/* SECTION GRISE 4 */}
