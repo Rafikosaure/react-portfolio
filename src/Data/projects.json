@@ -10,24 +10,14 @@
 		"urlRepo": "https://github.com/Rafikosaure/star-wars-encyclopedia"
 	},
 	{
-		"id": "b9123946",
-		"shortTitle": "Site web d'une agence de voyage",
-		"title": "Site web de Booki, agence de voyage",
-		"cover": "Images/booki_project.webp",
-		"description": "Ce projet a consisté en l'intégration de la page d'accueil de l'agence de voyage Booki. Le logiciel de design collaboratif en ligne Figma a été utilisé pour la maquette. Parfaitement respectueux de la sémantique du Web, il est une magnifique démonstration de ce qui se fait de mieux en HTML5 et CSS3 à l'heure actuelle. Conforme aux attentes exigées par le World Wide Web Consortium, il est parfaitement adapté à toutes les tailles d'écran (desktop, tablette et mobile) grâce à sa conception respectueuse du Responsive Design. Il reprend les dernières normes du HTML5 telles que la structuration Header/Main/Footer, ainsi que du CSS3 avec l'usage des boîtes flexibles pour le positionnement des éléments. Ce projet Booki n'a pas été ma première création en HTML5 et CSS3, mais en raison du niveau de complexité qu'à nécessité sa réalisation, il a été pour moi un défi certain, qui s'est révélé très formateur.",
-		"technologies": "HTML5, CSS3, FLEXBOX, FIGMA, icones FONT-AWESOME.",
-		"urlSite": "https://rafikosaure.github.io/booki-agence-de-voyage/",
-		"urlRepo": "https://github.com/Rafikosaure/booki-agence-de-voyage"
-	},
-	{
-		"id": "0979876d",
-		"shortTitle": "Site d'une photographe freelance",
-		"title": "Site de Nina Carducci, photographe freelance",
-		"cover": "Images/nina_carducci_photographe.webp",
-		"description": "Le site Web de la photographe Nina Carducci existait déjà lorsque j'ai été sollicité pour ce projet : il s'agissait ici de débugguer le site et de l'optimiser pour son référencement sur les moteurs de recherche. Durant cette nouvelle mission, j'ai mis en place des outils et techniques pour que ce site soit le mieux classé possible dans les résultats de Google et qu'il soit, de manière plus générale, mieux visible sur le Web. J'ai fait en sorte qu'il soit autant accessible pour les personnes souffrant de handicaps que pour celles qui n'en souffrent pas. J'ai travaillé à ce que les bonnes pratiques de conception soient appliquées de manière à améliorer le SEO ainsi que les performances générales du site, par exemple en allégeant au maxmimum les images du site tout en gardant une qualité qui fasse honneur au travail de Nina. En effet, il m'a été particulièrement ardu de booster autant que souhaité les performances de ce site en raison de sa nature même : il comporte de nombreuses photographies très lourdes à charger au démarrage, et les alléger suffisamment sans en altérer la qualité a été un défi peu commun.",
-		"technologies": "LIGHTHOUSE, WAVE, HEADINGSMAP, CHROME DEV TOOLS, SCHEMA.ORG, COMPRESSOR.IO, MINIFY JS ONLINE, MINIFY CSS, entre autres.",
-		"urlSite": "https://rafikosaure.github.io/nina-carducci-photographe-pro/",
-		"urlRepo": "https://github.com/Rafikosaure/nina-carducci-photographe-pro"
+		"id": "b4c67936",
+		"shortTitle": "Application de gestion de projet en ligne",
+		"title": "Site de gestion de projet de type Trello",
+		"cover": "Images/trello_clone.webp",
+		"description": "Ce site codé en TypeScript est inspiré de Trello et de la méthode Kanban de Toyota, qui sont des techniques utilisées pour gérer des projets en entreprise. Le fonctionnement de Trello associé à la méthode Kanban repose sur une organisation des projets en tableaux listant des cartes, chacune représentant des tâches. Les cartes sont assignables à des utilisateurs et sont mobiles d'une liste à l'autre, traduisant leur avancement. Ce site permet de créer des listes et des cartes, ainsi que de les déplacer avec un glisser-déposer de la souris. Il s'agit ici de mon tout premier projet codé en langage TypeScript. Le langage TypeScript est un sur-ensemble du langage JavaScript, sorte de JavaScript amélioré: il permet comme fonctionnalités un typage statique optionnel des variables et des fonctions ainsi que la création de classes et d'interfaces, tout en conservant l'approche de JavaScript. Il permet donc de réaliser des projets Web en évitant les erreurs de typage courantes de JavaScript, mais tout en bénéficiant aussi de ses atouts. De par ces qualités, TypeScript est un langage très apprécié dans le monde du développement Web, et j'ai personnellement beaucoup apprécié utiliser ce langage pour sa syntaxe que j'ai trouvé plus limpide que celle de JavaScript.",
+		"technologies": "HTML5, CSS3, TYPESCRIPT, JAVASCRIPT.",
+		"urlSite": "https://rafikosaure.github.io/Trello-clone/",
+		"urlRepo": "https://github.com/Rafikosaure/Trello-clone"
 	},
 	{
 		"id": "7af00cd6",
@@ -38,16 +28,6 @@
 		"technologies": "HTML5, CSS3, SASS, FIGMA, REACTJS.",
 		"urlSite": "https://kasa-blue.vercel.app/",
 		"urlRepo": "https://github.com/Rafikosaure/kasa-location-appartement-entre-particuliers"
-	},
-	{
-		"id": "b4c67936",
-		"shortTitle": "Application de gestion de projet en ligne",
-		"title": "Site de gestion de projet de type Trello",
-		"cover": "Images/trello_clone.webp",
-		"description": "Ce site codé en TypeScript est inspiré de Trello et de la méthode Kanban de Toyota, qui sont des techniques utilisées pour gérer des projets en entreprise. Le fonctionnement de Trello associé à la méthode Kanban repose sur une organisation des projets en tableaux listant des cartes, chacune représentant des tâches. Les cartes sont assignables à des utilisateurs et sont mobiles d'une liste à l'autre, traduisant leur avancement. Ce site permet de créer des listes et des cartes, ainsi que de les déplacer avec un glisser-déposer de la souris. Il s'agit ici de mon tout premier projet codé en langage TypeScript. Le langage TypeScript est un sur-ensemble du langage JavaScript, sorte de JavaScript amélioré: il permet comme fonctionnalités un typage statique optionnel des variables et des fonctions ainsi que la création de classes et d'interfaces, tout en conservant l'approche de JavaScript. Il permet donc de réaliser des projets Web en évitant les erreurs de typage courantes de JavaScript, mais tout en bénéficiant aussi de ses atouts. De par ces qualités, TypeScript est un langage très apprécié dans le monde du développement Web, et j'ai personnellement beaucoup apprécié utiliser ce langage pour sa syntaxe que j'ai trouvé plus limpide que celle de JavaScript.",
-		"technologies": "HTML5, CSS3, TYPESCRIPT, JAVASCRIPT.",
-		"urlSite": "https://rafikosaure.github.io/Trello-clone/",
-		"urlRepo": "https://github.com/Rafikosaure/Trello-clone"
 	},
 	{
 		"id": "f72a452f",
@@ -67,6 +47,26 @@
 		"technologies": "NODE.JS, EXPRESS, MONGODB ATLAS, MONGOOSE, JSONWEBTOKEN, BCRYPT, MULTER, SHARP.",
 		"urlSite": "#",
 		"urlRepo": "https://github.com/Rafikosaure/mon-vieux-grimoire-notation-de-livres"
+	},
+	{
+		"id": "0979876d",
+		"shortTitle": "Site d'une photographe freelance",
+		"title": "Site de Nina Carducci, photographe freelance",
+		"cover": "Images/nina_carducci_photographe.webp",
+		"description": "Le site Web de la photographe Nina Carducci existait déjà lorsque j'ai été sollicité pour ce projet : il s'agissait ici de débugguer le site et de l'optimiser pour son référencement sur les moteurs de recherche. Durant cette nouvelle mission, j'ai mis en place des outils et techniques pour que ce site soit le mieux classé possible dans les résultats de Google et qu'il soit, de manière plus générale, mieux visible sur le Web. J'ai fait en sorte qu'il soit autant accessible pour les personnes souffrant de handicaps que pour celles qui n'en souffrent pas. J'ai travaillé à ce que les bonnes pratiques de conception soient appliquées de manière à améliorer le SEO ainsi que les performances générales du site, par exemple en allégeant au maxmimum les images du site tout en gardant une qualité qui fasse honneur au travail de Nina. En effet, il m'a été particulièrement ardu de booster autant que souhaité les performances de ce site en raison de sa nature même : il comporte de nombreuses photographies très lourdes à charger au démarrage, et les alléger suffisamment sans en altérer la qualité a été un défi peu commun.",
+		"technologies": "LIGHTHOUSE, WAVE, HEADINGSMAP, CHROME DEV TOOLS, SCHEMA.ORG, COMPRESSOR.IO, MINIFY JS ONLINE, MINIFY CSS, entre autres.",
+		"urlSite": "https://rafikosaure.github.io/nina-carducci-photographe-pro/",
+		"urlRepo": "https://github.com/Rafikosaure/nina-carducci-photographe-pro"
+	},
+	{
+		"id": "b9123946",
+		"shortTitle": "Site web d'une agence de voyage",
+		"title": "Site web de Booki, agence de voyage",
+		"cover": "Images/booki_project.webp",
+		"description": "Ce projet a consisté en l'intégration de la page d'accueil de l'agence de voyage Booki. Le logiciel de design collaboratif en ligne Figma a été utilisé pour la maquette. Parfaitement respectueux de la sémantique du Web, il est une magnifique démonstration de ce qui se fait de mieux en HTML5 et CSS3 à l'heure actuelle. Conforme aux attentes exigées par le World Wide Web Consortium, il est parfaitement adapté à toutes les tailles d'écran (desktop, tablette et mobile) grâce à sa conception respectueuse du Responsive Design. Il reprend les dernières normes du HTML5 telles que la structuration Header/Main/Footer, ainsi que du CSS3 avec l'usage des boîtes flexibles pour le positionnement des éléments. Ce projet Booki n'a pas été ma première création en HTML5 et CSS3, mais en raison du niveau de complexité qu'à nécessité sa réalisation, il a été pour moi un défi certain, qui s'est révélé très formateur.",
+		"technologies": "HTML5, CSS3, FLEXBOX, FIGMA, icones FONT-AWESOME.",
+		"urlSite": "https://rafikosaure.github.io/booki-agence-de-voyage/",
+		"urlRepo": "https://github.com/Rafikosaure/booki-agence-de-voyage"
 	},
 	{
 		"id": "46d188c5",
