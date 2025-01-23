@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Mon Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue sur mon portfolio en ligne ! Je suis un développeur Fullstack passionné par le Web, l'automatisation, le traitement de données et l'IA. Depuis l'âge de 10 ans, j'évolue dans le monde du développement, et ce parcours m'a permis d'acquérir une solide expertise dans une multitude de technologies.
 
-## Available Scripts
+## Qui suis-je ?
 
-In the project directory, you can run:
+Développeur autodidacte, ma passion pour la programmation a commencé avec le langage C, à une époque où l'Internet n'était qu'un rêve et où les livres étaient mes seuls professeurs. Depuis, j'ai élargi mon champ de compétences et travaillé sur des projets de plus en plus variés, allant de la création de scripts d'automatisation à des projets de Web scraping, sans oublier le hacking éthique.
 
-### `npm start`
+Bien que ma formation "officielle" soit dans le domaine du Web, j'aime explorer divers horizons techniques. Mon langage préféré est Python, avec lequel j'ai créé des projets Web, Desktop et Mobile. La veille technique est également une de mes passions, et je passe de nombreuses heures sur YouTube pour me tenir informé des dernières tendances.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Mes compétences
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+En tant que développeur Fullstack, je maîtrise les technologies suivantes :
 
-### `npm test`
+### Frontend
+- **ReactJS** : Création d'interfaces utilisateur dynamiques et performantes avec ReactJS, en utilisant des hooks, des contextes et des outils comme Redux et React Router.
+- **NextJS** : Développement de sites Web modernes, avec une approche SSR (Server-Side Rendering) pour une meilleure performance et SEO.
+- **TypeScript** : Amélioration de la sécurité et de la maintenabilité du code avec TypeScript.
+  
+### Backend
+- **NodeJS** : Développement côté serveur avec NodeJS, en construisant des API RESTful performantes et sécurisées.
+- **ExpressJS** : Création de serveurs et d'API flexibles avec ExpressJS.
+- **Django** : Expérience dans la création de projets Web avec Django pour des applications robustes et sécurisées.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Bases de données
+- **SQL** : Compétences solides en bases de données relationnelles (MySQL, PostgreSQL).
+- **NoSQL** : Expérience avec des bases de données NoSQL comme MongoDB pour des applications scalables et flexibles.
 
-### `npm run build`
+### DevOps & Automatisation
+- **Docker** : Containerisation des applications pour simplifier le déploiement et améliorer l'isolement des environnements.
+- **Jenkins, Github Actions** : Mise en place de pipelines CI/CD pour automatiser le test, le déploiement et la gestion des versions de mes applications.
+- **Jest** : Tests unitaires et d'intégration pour garantir la qualité du code et des fonctionnalités.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Autres compétences
+- **SEO** : Optimisation des sites Web pour le référencement afin d'améliorer leur visibilité sur les moteurs de recherche.
+- **Gestion de projet digital** : Expérience dans la gestion de projets Web, en planifiant, coordonnant et supervisant le travail de développement.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Mon portfolio
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ce portfolio a été créé en 2021 et est constamment mis à jour et amélioré. Il reflète mon évolution en tant que développeur et me permet d'expérimenter de nouvelles technologies et méthodologies. Tu y trouveras un échantillon de mes projets Web, allant de la création de sites complets à des applications interactives et dynamiques.
