@@ -7,17 +7,20 @@ import Header from './Components/Header'
 import Footer from './Components/Footer'
 import Home from './Pages/Home'
 import Project from './Pages/Project'
+import ScrollToTop from './Hooks/ScrollToTop'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
     <React.StrictMode>
         <Router>
-            <Header />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/project/:projectId" element={<Project />} />
-            </Routes>
-            <Footer />
+            <ScrollToTop />
+                <Header />
+                    <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/project/:projectId" element={<Project />} />
+                    </Routes>
+                <Footer />
         </Router>
     </React.StrictMode>
 )
