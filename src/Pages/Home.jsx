@@ -43,33 +43,8 @@ function Home() {
                     <div className="col-contenu float-right">
                         <div className="texte-avec-ligne-verticale">
                             <p className="texte-profile-description">
-                                Développeur fullstack curieux, autodidacte et
-                                passionné par les technologies numériques depuis
-                                l'enfance, j'ai fait mes premières armes en
-                                programmation à 10 ans en apprenant par moi-même
-                                les bases du <strong>langage C</strong> grâce à des ouvrages
-                                dénichés dans la bibliothèque paternelle. Après
-                                un parcours universitaire d'historien-chercheur,
-                                j'ai décidé de me reconvertir dans le
-                                développement informatique en suivant des cours
-                                sur le <strong>langage Python</strong> sur
-                                Udemy.com. Ayant finalement décidé de me spécialiser dans le <strong>développement Web</strong>, j'ai suivi le parcours
-                                diplomant d'<strong>OpenClassrooms.com</strong> (anciennement
-                                Site du Zéro) avant de passer le titre professionnel 
-                                de <strong>concepteur-développeur d'applications</strong> au sein de SIELI.<br />
-                                Au fil de mon parcours dans le développement,
-                                j'ai réalisé de nombreux projets très divers :
-                                des programmes simples en mode console, par
-                                exemple le <strong>Jeu de Maths</strong> pour les écoliers
-                                ayant besoin de réviser leurs maths avant un
-                                contrôle. J'ai également réalisé des programmes
-                                plus complexes comme des <strong>logiciels desktop</strong>, à
-                                l'image de <strong>MrBeat</strong>, une boîte à rythmes
-                                digitale, ou de <strong>Galaxy</strong>, un jeu vidéo de
-                                parcours d'un vaisseau spatial en 3D
-                                isométrique. Enfin, j'ai réalisé un certain
-                                nombre de <strong>projets Web et Web mobile</strong>, dont vous
-                                pouvez avoir <a href='#portfolio'>un aperçu ici</a>.
+                            Développeur fullstack curieux et autodidacte, je me passionne pour les technologies numériques depuis l’enfance. <strong>À 10 ans, j’apprenais les bases du C</strong> grâce à des ouvrages trouvés dans la bibliothèque paternelle. Après un parcours universitaire en histoire et une première immersion dans <strong>le langage Python</strong> via Udemy, j’ai choisi de me spécialiser dans le <strong>développement Web</strong> en suivant le parcours diplômant <strong>d’OpenClassrooms</strong>, avant d’obtenir le titre de <strong>concepteur-développeur d’applications</strong> chez SIELI. J’ai également approfondi mes compétences en <strong>gestion de projet en IA</strong> avec 26 Academy.<br />
+                            Au fil des années, j’ai mené des projets variés : des applications console comme un <strong>Jeu de Maths</strong> pour écoliers, des logiciels desktop comme <strong>MrBeat, une boîte à rythmes digitale</strong>, ou <strong>Galaxy, un jeu de course en 3D</strong>. J’ai aussi conçu de nombreuses <strong>applications Web et Web mobile</strong>, dont vous trouverez <a href='#portfolio'>un aperçu ici</a>.
                             </p>
                             <div className='div-presentation-links'>
                                 <Link className='presentation-link' to="https://www.linkedin.com/in/rafikbensadi" target="_blank"
