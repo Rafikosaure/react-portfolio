@@ -500,6 +500,7 @@ img.portfolio {
 }
 
 .project-section {
+    min-height: fit-content;
     height: 290px;
 }
 
@@ -700,7 +701,8 @@ img.portfolio {
     }
     
     .iframe {
-        padding-top: 40px;
+        height: 390px;
+        // padding-top: 40px;
     }
 
     div.frame {
