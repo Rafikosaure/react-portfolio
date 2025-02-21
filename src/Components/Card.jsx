@@ -13,7 +13,7 @@ function Card({ project }) {
                         <div className="barre-verticale" />
                     </td>
                     <td style={{ width: '100%' }}>
-                        <Link to={`/project/${project.id}`}>
+                        <Link to={`/project/${project.id}`} className='card-link'>
                             <img
                                 className="image-bordered image-shadow"
                                 style={{ width: '100%' }}
