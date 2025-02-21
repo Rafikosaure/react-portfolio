@@ -4,16 +4,25 @@ import Slideshow from '../Components/Slideshow'
 import { useParams } from 'react-router'
 import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
+import { useTheme } from '../Context/ThemeContext'
+import { useEffect } from 'react'
+
 
 function Project() {
     const { projectId } = useParams()
     const currentDatas = Projects.find((project) => project.id === projectId)
     const { ref: myProject, inView: myProjectIsVisible } = useInView();
+    const { colorElementMode, colorMainMode, getStoredTheme } = useTheme()
+
+    useEffect(() => {
+        getStoredTheme()
+    }, [getStoredTheme])
+
 
     return (
-        <div>
+        <div className={`${colorMainMode}`}>
             {/* SECTION GRISE TITRE */}
-            <div className="section section-grise1 project-section" style={{ paddingTop: 20 }}>
+            <div className={`section section-grise1${colorElementMode} project-section`}>
                 <a className="portfolio-back" href="/">
                     Retour
                 </a>
@@ -22,7 +31,8 @@ function Project() {
                 <h2 className="portfolio">{currentDatas.title}</h2>
             </div>
             {/* SECTION CONTENU */}
-            <div ref={myProject} className={`${'section'} ${'reveal'} ${myProjectIsVisible ? 'reveal-visible' : ''}`}>
+            <div className='portfolio-project-content-wrapper'>
+                <div ref={myProject} className={`${'portfolio-description-padding-top'} ${'section'} ${'reveal'} ${myProjectIsVisible ? 'reveal-visible' : ''}`}>
                 <div className="texte-avec-ligne-verticale">
                     {currentDatas.description}
                     <br />
@@ -70,7 +80,9 @@ function Project() {
                         Consulter le code du projet sur Github
                     </Link>
                 </div>
+                </div>
             </div>
+            
         </div>
     )
 }
