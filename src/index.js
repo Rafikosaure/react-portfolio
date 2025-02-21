@@ -8,19 +8,23 @@ import Footer from './Components/Footer'
 import Home from './Pages/Home'
 import Project from './Pages/Project'
 import ScrollToTop from './Hooks/ScrollToTop'
+import { ThemeProvider } from './Context/ThemeContext'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
     <React.StrictMode>
-        <Router>
-            <ScrollToTop />
+        <ThemeProvider>
+            <Router>
+                <ScrollToTop />
                 <Header />
                     <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/project/:projectId" element={<Project />} />
+                        <Route path="/" element={<Home />} />
+                        <Route path="/project/:projectId" element={<Project />} />
                     </Routes>
                 <Footer />
-        </Router>
+            </Router>
+        </ThemeProvider>
+        
     </React.StrictMode>
 )
