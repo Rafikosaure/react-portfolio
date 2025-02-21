@@ -1,13 +1,28 @@
 import '../Styles/CommonStyles.scss'
 import { useLocation } from 'react-router-dom'
 import Profile1 from '../Images/profile.webp'
+import { useTheme } from '../Context/ThemeContext'
+import { useState, useEffect } from 'react'
+
 
 function Header() {
     const location = useLocation()
+    const [switchModeTitle, setSwitchModeTitle] = useState('sombre')
+    const { toggleTheme, colorElementMode, colorMainMode } = useTheme()
+
+    useEffect(() => {
+        if (colorMainMode === 'light') {
+            setSwitchModeTitle('sombre')
+        } else {
+            setSwitchModeTitle('clair')
+        }
+    }, [colorMainMode])
 
     return (
-        <div>
+        <div style={{ position: 'relative' }}>
             {location.pathname === '/' ? (
+                <>
+                <div className={`switch-mode${colorElementMode} switch-home`} title={`Passer au mode ${switchModeTitle}`} onClick={(e) => toggleTheme(e)}></div>
                 <header className="cover">
                     <img
                         className="cover-profile"
@@ -38,7 +53,10 @@ function Header() {
                         </p>
                     </div>
                 </header>
+                </>
             ) : (
+                <>
+                <div className={`switch-mode${colorElementMode} switch-portfolio`} title={`Passer au mode ${switchModeTitle}`} onClick={(e) => toggleTheme(e)}></div>
                 <header className="portfolio-header">
                     <div
                         className="texte-avec-ligne-verticale"
@@ -53,6 +71,8 @@ function Header() {
                         ME CONTACTER
                     </a>
                 </header>
+                </>
+                
             )}
         </div>
     )
