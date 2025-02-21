@@ -1,15 +1,21 @@
 import '../Styles/CommonStyles.scss'
 import Profile from '../Images/profile.webp'
+import { useTheme } from '../Context/ThemeContext'
+
 
 function Footer() {
+
+    const { colorMainMode, colorElementMode } = useTheme()
+
+
     return (
-        <div className="iframe">
+        <div className={`iframe ${colorMainMode}`}>
             <div className="section">
                 <div
                     className="separateur display-mobile"
                     style={{ marginBottom: 15 }}
                 />
-                <div className="frame">
+                <div className={`frame frame-mode${colorElementMode}`}>
                     <h2 className="frame-title">Parlons de votre projet</h2>
                     <table style={{ width: '100%' }}>
                         <tbody>
