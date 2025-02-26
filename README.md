@@ -37,4 +37,4 @@ En tant que développeur Fullstack, je maîtrise les technologies suivantes :
 
 ## Mon portfolio
 
-Ce portfolio a été créé en 2021 et est constamment mis à jour et amélioré. Il reflète mon évolution en tant que développeur et me permet d'expérimenter de nouvelles technologies et méthodologies. Tu y trouveras un échantillon de mes projets Web, allant de la création de sites complets à des applications interactives et dynamiques.
+Ce portfolio a été créé en 2021 et est constamment mis à jour et amélioré. Il reflète mon évolution en tant que développeur et me permet d'expérimenter de nouvelles technologies et méthodologies. Tu y trouveras un échantillon de mes projets Web, allant de la création de sites complets à des applications interactives et dynamiques. Pour le consulter, rend-toi à cette adresse : [rafikbensadi.com](https://rafikbensadi.com)
