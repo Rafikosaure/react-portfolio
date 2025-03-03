@@ -70,15 +70,18 @@ function Project() {
                             <Slideshow currentDatas={currentDatas} />
                         </div>
                     )}
-                    <Link
-                        className='projects-fontsize'
-                        style={{ display: 'block', marginTop: 8 }}
-                        to={currentDatas.urlRepo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Consulter le code du projet sur Github
-                    </Link>
+                    {currentDatas.urlRepo !== "#" && (
+                        <Link
+                            className='projects-fontsize'
+                            style={{ display: 'block', marginTop: 8 }}
+                            to={currentDatas.urlRepo}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Consulter le code du projet sur Github
+                        </Link>
+                    )}
+                    
                 </div>
                 </div>
             </div>

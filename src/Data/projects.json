@@ -59,6 +59,16 @@
 		"urlRepo": "https://github.com/Rafikosaure/nina-carducci-photographe-pro"
 	},
 	{
+		"id": "cb2f9222",
+		"shortTitle": "Portfolio de développeur No Code",
+		"title": "Site portfolio, version conçue avec Webflow (No Code)",
+		"cover": "Images/webflow-portfolio.webp",
+		"description": "Ce site est une version alternative de mon portfolio, conçue entièrement avec Webflow. Contrairement à une approche traditionnelle nécessitant du code, cette solution No Code accélère le développement sans compromettre la qualité ni la personnalisation. Webflow automatise la mise en page, la gestion des styles CSS et l’intégration d’animations fluides, tout en garantissant un bon référencement et une parfaite adaptation aux écrans desktop, tablette et mobile. Ce projet illustre comment un développeur peut exploiter le No Code pour gagner en efficacité tout en respectant les standards de performance et de conception Web.",
+		"technologies": "Webflow",
+		"urlSite": "https://portfolio-de-rafik-ben-sadi.webflow.io/",
+		"urlRepo": "#"
+	},
+	{
 		"id": "b9123946",
 		"shortTitle": "Site web d'une agence de voyage",
 		"title": "Site web de Booki, agence de voyage",
