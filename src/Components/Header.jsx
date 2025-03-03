@@ -22,7 +22,7 @@ function Header() {
         <div style={{ position: 'relative' }}>
             {location.pathname === '/' ? (
                 <>
-                <div className={`switch-mode${colorElementMode} switch-home`} title={`Passer au mode ${switchModeTitle}`} onClick={(e) => toggleTheme(e)}></div>
+                <div className={`switch-mode${colorElementMode} switch-home`} title={`Passer en mode ${switchModeTitle}`} onClick={(e) => toggleTheme(e)}></div>
                 <header className="cover">
                     <img
                         className="cover-profile"
@@ -56,7 +56,7 @@ function Header() {
                 </>
             ) : (
                 <>
-                <div className={`switch-mode${colorElementMode} switch-portfolio`} title={`Passer au mode ${switchModeTitle}`} onClick={(e) => toggleTheme(e)}></div>
+                <div className={`switch-mode${colorElementMode} switch-portfolio`} title={`Passer en mode ${switchModeTitle}`} onClick={(e) => toggleTheme(e)}></div>
                 <header className="portfolio-header">
                     <div
                         className="texte-avec-ligne-verticale"
