@@ -28,7 +28,7 @@ function Footer() {
                                 </td>
                                 <td>
                                     <div
-                                        className="texte-avec-ligne-verticale"
+                                        className={`texte-avec-ligne-verticale ligne-verticale-color${colorElementMode}`}
                                         style={{ marginLeft: 20 }}
                                     >
                                         <p>

@@ -32,17 +32,17 @@ function Header() {
                     <h1>Rafik Ben Sadi</h1>
                     <p className="cover-description">
                         Développeur Fullstack | React -
-                        Node JS - Express
+                        Node JS - SQL - NoSQL
                     </p>
                     <div style={{ textAlign: 'center' }}>
                         <a
-                            className="contact-button"
+                            className={`contact-button contact-button-color${colorElementMode}`}
                             href="mailto:rafikbensadi@live.fr?subject=Contact%20depuis%20rafikbensadi.com"
                         >
                             ME CONTACTER
                         </a>
                     </div>
-                    <div className="cover-contact">
+                    <div className={`cover-contact cover-contact-bar-color${colorElementMode}`}>
                         <p>
                             <a href="mailto:rafikbensadi@live.fr?subject=Contact%20depuis%20rafikbensadi.com">
                                 rafikbensadi@live.fr
@@ -65,7 +65,7 @@ function Header() {
                         <p className="portfolio-header-title">Rafik Ben Sadi</p>
                     </div>
                     <a
-                        className="contact-button contact-button-portfolio"
+                        className={`contact-button contact-button-color${colorElementMode} contact-button-portfolio`}
                         href="mailto:rafikbensadi@live.fr?subject=Contact%20depuis%20rafikbensadi.com"
                     >
                         ME CONTACTER

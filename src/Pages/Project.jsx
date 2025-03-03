@@ -23,7 +23,7 @@ function Project() {
         <div className={`${colorMainMode}`}>
             {/* SECTION GRISE TITRE */}
             <div className={`section section-grise1${colorElementMode} project-section`}>
-                <a className="portfolio-back" href="/">
+                <a className={`portfolio-back portfolio-back-color${colorElementMode}`} href="/">
                     Retour
                 </a>
                 <div className="separateur" style={{ marginTop: '-12px' }} />

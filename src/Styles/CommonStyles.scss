@@ -92,8 +92,15 @@ div.cover-contact {
     position: absolute;
     top: 20px;
     left: 10px;
-    border-left: 4px solid var(--color1);
     padding-left: 8px;
+}
+
+.cover-contact-bar-color {
+    border-left: 4px solid var(--color1);
+}
+
+.cover-contact-bar-color-dark {
+    border-left: 4px solid var(--color5);
 }
 
 div.cover-contact p {
@@ -114,8 +121,6 @@ div.cover-contact * {
 }
 
 a.contact-button {
-    color: var(--color1);
-    border: 3px solid #d89584;
     padding: 8px 20px;
     text-decoration: none;
     background-color: #00000040;
@@ -124,15 +129,30 @@ a.contact-button {
     font-size: 14;
 }
 
+.contact-button-color {
+    border: 3px solid #d89584;
+    color: var(--color1);
+}
+
+.contact-button-color:hover {
+    color: white;
+    border: 3px solid white;
+}
+
+.contact-button-color-dark {
+    border: 3px solid #acacac;
+    color: #acacac;
+}
+
+.contact-button-color-dark:hover {
+    color: var(--color5);
+    border: 3px solid var(--color5);
+}
+
 a.contact-button-portfolio {
     position: absolute; 
     right: 20px; 
     top: 5px;
-}
-
-a.contact-button:hover {
-    color: white;
-    border: 3px solid white;
 }
 
 .section {
@@ -222,7 +242,6 @@ div.texte-avec-ligne-verticale p {
 }
 
 div.texte-avec-ligne-verticale {
-    border-left: 4px solid var(--color1);
     padding-left: 8px;
     height: 50px;
     display: inline-block;
@@ -230,6 +249,14 @@ div.texte-avec-ligne-verticale {
     .portfolio-header-title {
         color: var(--color5);
     }
+}
+
+.ligne-verticale-color {
+    border-left: 4px solid var(--color1);
+}
+
+.ligne-verticale-color-dark {
+    border-left: 4px solid var(--color5);
 }
 
 .texte-profile-description {
@@ -360,8 +387,15 @@ div.texte-avec-ligne-verticale {
 div.barre-verticale {
     height: 50px;
     width: 4px;
-    background-color: var(--color1);
     margin-right: 8px;
+}
+
+.barre-verticale-color {
+    background-color: var(--color1);
+}
+
+.barre-verticale-color-dark {
+    background-color: var(--color5);
 }
 
 .projects-cardslist {
@@ -467,8 +501,15 @@ h2.portfolio {
 }
 
 a.portfolio-back {
-    color: var(--color1);
     margin-left: -10px;
+}
+
+.portfolio-back-color {
+    color: var(--color1);
+}
+
+.portfolio-back-color-dark {
+    color: var(--color5);
 }
 
 img.portfolio {
