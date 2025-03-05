@@ -36,8 +36,8 @@
 		"cover": "Images/gamma-cybersecurite-diapo.webp",
 		"description": "Cette présentation interactive sur les fondamentaux de la cybersécurité a été générée avec Gamma, une IA spécialisée dans la création automatisée de supports professionnels. En s’appuyant sur des modèles génératifs de textes et d’images, elle produit un contenu structuré et personnalisable. Pour explorer le potentiel de ces outils, j’ai intégré et adapté cette présentation dans une page Web stylisée et déployée sur mon portfolio. Ce projet illustre l’évolution des technologies IA appliquées au Web et leur capacité à optimiser la production de contenu. Il s’inscrit dans ma démarche personnelle d’expérimentation avec des IA avancées telles que ChatGPT, Claude, Mistral AI, Copilot, TensorFlow, Gemini et bien d'autres.",
 		"technologies": "HTML5, CSS3, GAMMA-AI.",
-		"urlSite": "https://rafikosaure.github.io/Gamma-AI-Cybersecurity-Project/",
-		"urlRepo": "https://rafikosaure.github.io/gamma-ai-presentation/"
+		"urlSite": "https://rafikosaure.github.io/gamma-ai-presentation",
+		"urlRepo": "https://github.com/Rafikosaure/gamma-ai-presentation"
 	},
 	{
 		"id": "f72a452f",
