@@ -30,6 +30,16 @@
 		"urlRepo": "https://github.com/Rafikosaure/kasa-location-appartement-entre-particuliers"
 	},
 	{
+		"id": "d60ca600",
+		"shortTitle": "Présentation d'entreprise conçue par IA",
+		"title": "Présentation en Cybersécurité conçue par Intelligence Artificielle",
+		"cover": "Images/gamma-cybersecurite-diapo.webp",
+		"description": "Cette présentation interactive sur les fondamentaux de la cybersécurité a été générée avec Gamma, une IA spécialisée dans la création automatisée de supports professionnels. En s’appuyant sur des modèles génératifs de textes et d’images, elle produit un contenu structuré et personnalisable. Pour explorer le potentiel de ces outils, j’ai intégré et adapté cette présentation dans une page Web stylisée et déployée sur mon portfolio. Ce projet illustre l’évolution des technologies IA appliquées au Web et leur capacité à optimiser la production de contenu. Il s’inscrit dans ma démarche personnelle d’expérimentation avec des IA avancées telles que ChatGPT, Claude, Mistral AI, Copilot, TensorFlow, Gemini et bien d'autres.",
+		"technologies": "HTML5, CSS3, GAMMA-AI.",
+		"urlSite": "https://rafikosaure.github.io/Gamma-AI-Cybersecurity-Project/",
+		"urlRepo": "https://github.com/Rafikosaure/Gamma-AI-Cybersecurity-Project"
+	},
+	{
 		"id": "f72a452f",
 		"shortTitle": "Site de notation de livres",
 		"title": "Mon Vieux Grimoire, site de référencement et de notation de livres",
@@ -64,7 +74,7 @@
 		"title": "Site portfolio, version conçue avec Webflow (No Code)",
 		"cover": "Images/webflow-portfolio.webp",
 		"description": "Ce site est une version alternative de mon portfolio, conçue entièrement avec Webflow. Contrairement à une approche traditionnelle nécessitant du code, cette solution No Code accélère le développement sans compromettre la qualité ni la personnalisation. Webflow automatise la mise en page, la gestion des styles CSS et l’intégration d’animations fluides, tout en garantissant un bon référencement et une parfaite adaptation aux écrans desktop, tablette et mobile. Ce projet illustre comment un développeur peut exploiter le No Code pour gagner en efficacité tout en respectant les standards de performance et de conception Web.",
-		"technologies": "Webflow",
+		"technologies": "Webflow.",
 		"urlSite": "https://portfolio-de-rafik-ben-sadi.webflow.io/",
 		"urlRepo": "#"
 	},
