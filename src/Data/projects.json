@@ -1,10 +1,10 @@
 [
 	{
 		"id": "a4de3ncz",
-		"shortTitle": "Wiki et Forum sur Star-Wars",
-		"title": "Star-Wars Encyclopedia, documentation et débats sur Star Wars",
+		"shortTitle": "Wiki sur Star-Wars, avec forum, vidéothèque et e-boutique",
+		"title": "Star-Wars Encyclopedia, documentation et débats sur Star Wars, entre autres",
 		"cover": "Images/swencyclo.webp",
-		"description": "Star Wars Encyclopedia est un site interactif combinant un wiki et un forum de discussion, permettant aux fans de Star Wars d'explorer, contribuer et échanger sur l'univers de la saga. Ce projet personnel a été réalisé entièrement en autonomie. Le site est responsive, offrant une expérience optimale sur tous les appareils. Les utilisateurs peuvent créer un compte, gérer leur profil, et recevoir des notifications par email. Dans le forum, ils peuvent créer des discussions, publier des posts ou les commenter, liker les contenus... Le Wiki se base sur une API pour la gestion des articles. Le frontend utilise React, le backend Node.js et Express, avec des tests automatisés et un déploiement via GitHub Actions et Vercel.",
+		"description": "Star Wars Encyclopedia est un site interactif combinant un wiki, un forum de discussion, une vidéothèque et une boutique en ligne. Ce site permet aux fans de Star Wars d'explorer, contribuer et échanger sur l'univers de la saga tout en s'amusant. Ce projet personnel a été réalisé entièrement en autonomie. Le site est responsive, offrant une expérience optimale sur tous les appareils. Les utilisateurs du forum peuvent créer un compte, gérer leur profil, être notifié par email en cas de mention. Le forum permet de créer des discussions, publier des posts ou les commenter, liker les contenus... Le Wiki se base sur une API pour la gestion des articles, tandis que la vidéothèque propose d'explorer les films et séries de la saga. Enfin, la boutique en ligne offre une perspective ludique puisqu'elle simule l'achat d'artefacts en lien avec la saga. Le frontend utilise React, le backend Node.js et Express, avec des tests automatisés et un déploiement via GitHub Actions et Vercel.",
 		"technologies": "REACT, REDUX, NODE.JS, EXPRESS, MONGODB, NODEMAILER, JEST, DOCKER.",
 		"urlSite": "https://www.star-wars-encyclopedia.com",
 		"urlRepo": "https://github.com/Rafikosaure/star-wars-encyclopedia"
@@ -30,11 +30,21 @@
 		"urlRepo": "https://github.com/Rafikosaure/kasa-location-appartement-entre-particuliers"
 	},
 	{
+		"id": "2cf259e1",
+		"shortTitle": "API Rest pour site e-commerce",
+		"title": "API Rest proposant des artefacts Star Wars pour site e-commerce",
+		"cover": "Images/star_wars_artefacts_api.webp",
+		"description": "Cette API Rest, un projet personnel, a été conçue dans le but de fournir à un site e-commerce un éventail de produits appartenant à l'univers de la saga Star Wars, bien que d'autres usages de cette API soient tout à fait possibles. Les produits sont des artefacts issus du Canon, de l'univers Legends, ou bien ont été inventés à partir du lore. Les images de l'API ont été majoritairement générés par IA, tandis que la technologie Next.js a été mise en oeuvre pour gérer les routes de l'API. Ce projet est l'un de mes tout premiers avec Next.js, et il est également ma première API Rest : c'est donc un projet qui m'a été riche d'enseignements.",
+		"technologies": "DALL-E, Next.js, SASS.",
+		"urlSite": "https://star-wars-artefacts-api.vercel.app",
+		"urlRepo": "https://github.com/Rafikosaure/star-wars-artefacts-api"
+	},
+	{
 		"id": "d60ca600",
 		"shortTitle": "Présentation d'entreprise conçue par IA",
 		"title": "Présentation en Cybersécurité conçue par Intelligence Artificielle",
 		"cover": "Images/gamma-cybersecurite-diapo.webp",
-		"description": "Cette présentation interactive sur les fondamentaux de la cybersécurité a été générée avec Gamma, une IA spécialisée dans la création automatisée de supports professionnels. En s’appuyant sur des modèles génératifs de textes et d’images, elle produit un contenu structuré et personnalisable. Pour explorer le potentiel de ces outils, j’ai intégré et adapté cette présentation dans une page Web stylisée et déployée sur mon portfolio. Ce projet illustre l’évolution des technologies IA appliquées au Web et leur capacité à optimiser la production de contenu. Il s’inscrit dans ma démarche personnelle d’expérimentation avec des IA avancées telles que ChatGPT, Claude, Mistral AI, Copilot, TensorFlow, Gemini et bien d'autres.",
+		"description": "Cette présentation interactive sur les fondamentaux de la cybersécurité a été générée avec Gamma, une IA spécialisée dans la création automatisée de supports professionnels. En s’appuyant sur des modèles génératifs de textes et d’images, elle produit un contenu structuré et personnalisable. Pour explorer le potentiel de ces outils, j’ai intégré et adapté cette présentation dans une page Web stylisée et déployée sur mon portfolio. Ce projet illustre l’évolution des technologies IA appliquées au Web et leur capacité à optimiser la production de contenu. Il s’inscrit dans ma démarche personnelle de développement avec des IA d'avant-garde telles que ChatGPT, HeyGen, Claude, DALL-E, Mistral AI, Copilot, TensorFlow, Gemini et bien d'autres.",
 		"technologies": "HTML5, CSS3, GAMMA-AI.",
 		"urlSite": "https://rafikosaure.github.io/gamma-ai-presentation",
 		"urlRepo": "https://github.com/Rafikosaure/gamma-ai-presentation"
@@ -77,51 +87,5 @@
 		"technologies": "Webflow.",
 		"urlSite": "https://portfolio-de-rafik-ben-sadi.webflow.io/",
 		"urlRepo": "#"
-	},
-	{
-		"id": "b9123946",
-		"shortTitle": "Site web d'une agence de voyage",
-		"title": "Site web de Booki, agence de voyage",
-		"cover": "Images/booki_project.webp",
-		"description": "Ce projet a consisté en l'intégration de la page d'accueil de l'agence de voyage Booki. Le logiciel de design collaboratif en ligne Figma a été utilisé pour la maquette. Parfaitement respectueux de la sémantique du Web, il est une magnifique démonstration de ce qui se fait de mieux en HTML5 et CSS3 à l'heure actuelle. Conforme aux attentes exigées par le World Wide Web Consortium, il est parfaitement adapté à toutes les tailles d'écran (desktop, tablette et mobile) grâce à sa conception respectueuse du Responsive Design. Il reprend les dernières normes du HTML5 telles que la structuration Header/Main/Footer, ainsi que du CSS3 avec l'usage des boîtes flexibles pour le positionnement des éléments. Ce projet Booki n'a pas été ma première création en HTML5 et CSS3, mais en raison du niveau de complexité qu'à nécessité sa réalisation, il a été pour moi un défi certain, qui s'est révélé très formateur.",
-		"technologies": "HTML5, CSS3, FLEXBOX, FIGMA, icones FONT-AWESOME.",
-		"urlSite": "https://rafikosaure.github.io/booki-agence-de-voyage/",
-		"urlRepo": "https://github.com/Rafikosaure/booki-agence-de-voyage"
-	},
-	{
-		"id": "46d188c5",
-		"shortTitle": "Site d'une architecte d'intérieur",
-		"title": "Site de Sophie Bluel, architecte d'intérieur",
-		"cover": "Images/sophie_bluel_architecte_d_interieur.webp",
-		"pictures": [
-			"Images/images_projets/sophie_bluel/image_01_sophie_bluel.webp",
-			"Images/images_projets/sophie_bluel/image_02_sophie_bluel.webp",
-			"Images/images_projets/sophie_bluel/image_03_sophie_bluel.webp",
-			"Images/images_projets/sophie_bluel/image_04_sophie_bluel.webp",
-			"Images/images_projets/sophie_bluel/image_05_sophie_bluel.webp",
-			"Images/images_projets/sophie_bluel/image_06_sophie_bluel.webp",
-			"Images/images_projets/sophie_bluel/image_07_sophie_bluel.webp",
-			"Images/images_projets/sophie_bluel/image_08_sophie_bluel.webp"
-		],
-		"description": "Ce site est le portfolio en ligne de l'architecte d'intérieur Sophie Bluel. Sa réalisation a été pour moi un vrai rite de passage puisqu'il m'a initié au langage Javascript, incontournable pour tout développeur frontend (c'est à dire qui travaille sur le rendu visible du site dans la fenêtre du navigateur Web). Ce projet comporte une galerie d'images que l'on peut filtrer par catégorie, une interface connecté/déconnecté fonctionnant via un formulaire de connexion, et même une boîte modale pour ajouter ou supprimer des images (disponible en mode connecté uniquement). Ce projet m'a également initié au traitement de données récupérées depuis une API, ce qui est aujourd'hui une compétence fondamentale pour tout développeur Web. Les difficultés que j'ai rencontré sont inhérentes à tout apprentissage d'un langage depuis zéro : il m'a fallu beaucoup de patience et de motivation pour y arriver, mais les compétences et techniques finalement acquises sont une belle récompense.",
-		"technologies": "HTML5, CSS3, JAVASCRIPT, FIGMA, API, NODE.JS.",
-		"urlSite": "#",
-		"urlRepo": "https://github.com/Rafikosaure/sophie-bluel-architecte-interieur"
-	},
-	{
-		"id": "c67ab8a7",
-		"shortTitle": "Site web d'un restaurant",
-		"title": "Site web de Pizza Mama, restaurant de pizzas",
-		"cover": "Images/pizzamama.webp",
-		"pictures": [
-			"Images/images_projets/pizza_mama/image_01_pizza_mama.webp",
-			"Images/images_projets/pizza_mama/image_02_pizza_mama.webp",
-			"Images/images_projets/pizza_mama/image_03_pizza_mama.webp",
-			"Images/images_projets/pizza_mama/image_04_pizza_mama.webp"
-		],
-		"description": "Ce site Web a été ma première expérience en développement côté serveur, et le langage utilisé ici est le Python. Conçu avec le framework Django, il dispose d'une base de données locale recensant les meilleures pizzas de chez Pizza Mama, la pizzeria qu'il vous faut pour vos soirées entre amis ! Plus serieusement, le système utilisé par Django est simple : pour chaque page est créée une application, avec son propre modèle de données. Puis ce modèle sert à établir la structure des données enregistrées, selon le paradigme de la programmation orientée objet, afin d'effectuer les opérations de création, d'affichage ou de suppression des données. Ici, les objets sont simplement des pizzas, et le modèle de données inclue donc pour chaque pizza un nom, des ingrédients, un prix et enfin un tag qui précise si la pizza est ou non végétarienne. La structure logique de ce projet a été complexe à comprendre et à mettre en place en raison des nécessaires compétences de développement en backend avec ce framework qu'est Django, mais l'expérience que j'ai acquise en développement avec d'autres langages comme NodeJS m'a permis finalement d'intégrer les concept-clés ainsi que de mieux comprendre les subtilités de Django.",
-		"technologies": "HTML5, CSS3, PYTHON, DJANGO, PYCHARM.",
-		"urlSite": "#",
-		"urlRepo": "https://github.com/Rafikosaure/pizza-mama"
 	}
 ]
