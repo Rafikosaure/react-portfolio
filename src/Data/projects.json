@@ -11,7 +11,7 @@
 	},
 	{
 		"id": "b4c67936",
-		"shortTitle": "Application TypeScript de gestion de projet en ligne",
+		"shortTitle": "Tableau de gestion de projet en ligne en TypeScript",
 		"title": "Site de gestion de projet de type Trello",
 		"cover": "Images/trello_clone.webp",
 		"description": "Ce site codé en TypeScript est inspiré de Trello et de la méthode Kanban de Toyota, qui sont des techniques utilisées pour gérer des projets en entreprise. Le fonctionnement de Trello associé à la méthode Kanban repose sur une organisation des projets en tableaux listant des cartes, chacune représentant des tâches. Les cartes sont assignables à des utilisateurs et sont mobiles d'une liste à l'autre, traduisant leur avancement. Ce site permet de créer des listes et des cartes, ainsi que de les déplacer avec un glisser-déposer de la souris. Il s'agit ici de mon tout premier projet codé en langage TypeScript. Le langage TypeScript est un sur-ensemble du langage JavaScript, sorte de JavaScript amélioré: il permet comme fonctionnalités un typage statique optionnel des variables et des fonctions ainsi que la création de classes et d'interfaces, tout en conservant l'approche de JavaScript. Il permet donc de réaliser des projets Web en évitant les erreurs de typage courantes de JavaScript, mais tout en bénéficiant aussi de ses atouts. De par ces qualités, TypeScript est un langage très apprécié dans le monde du développement Web, et j'ai personnellement beaucoup apprécié utiliser ce langage pour sa syntaxe que j'ai trouvé plus limpide que celle de JavaScript.",
@@ -51,7 +51,7 @@
 	},
 	{
 		"id": "f72a452f",
-		"shortTitle": "Site fullstack de notation de livres",
+		"shortTitle": "Site de notation de livres en Node.js/Express",
 		"title": "Mon Vieux Grimoire, site de référencement et de notation de livres",
 		"cover": "Images/mon_vieux_grimoire.webp",
 		"pictures": [
@@ -80,7 +80,7 @@
 	},
 	{
 		"id": "cb2f9222",
-		"shortTitle": "Portfolio de développeur No Code",
+		"shortTitle": "Portfolio de développeur No Code conçu avec Webflow",
 		"title": "Site portfolio, version conçue avec Webflow (No Code)",
 		"cover": "Images/webflow-portfolio.webp",
 		"description": "Ce site est une version alternative de mon portfolio, conçue entièrement avec Webflow. Contrairement à une approche traditionnelle nécessitant du code, cette solution No Code accélère le développement sans compromettre la qualité ni la personnalisation. Webflow automatise la mise en page, la gestion des styles CSS et l’intégration d’animations fluides, tout en garantissant un bon référencement et une parfaite adaptation aux écrans desktop, tablette et mobile. Ce projet illustre comment un développeur peut exploiter le No Code pour gagner en efficacité tout en respectant les standards de performance et de conception Web.",
