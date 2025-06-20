@@ -40,35 +40,6 @@
 		"urlRepo": "https://github.com/Rafikosaure/star-wars-artefacts-api"
 	},
 	{
-		"id": "d60ca600",
-		"shortTitle": "Présentation d'entreprise conçue par IA",
-		"title": "Présentation en Cybersécurité conçue par Intelligence Artificielle",
-		"cover": "Images/gamma-cybersecurite-diapo.webp",
-		"description": "Cette présentation interactive sur les fondamentaux de la cybersécurité a été générée avec Gamma, une IA spécialisée dans la création automatisée de supports professionnels. En s’appuyant sur des modèles génératifs de textes et d’images, elle produit un contenu structuré et personnalisable. Pour explorer le potentiel de ces outils, j’ai intégré et adapté cette présentation dans une page Web stylisée et déployée sur mon portfolio. Ce projet illustre l’évolution des technologies IA appliquées au Web et leur capacité à optimiser la production de contenu. Il s’inscrit dans ma démarche personnelle de développement avec des IA d'avant-garde telles que ChatGPT, HeyGen, Claude, DALL-E, Mistral AI, Copilot, TensorFlow, Gemini et bien d'autres.",
-		"technologies": "HTML5, CSS3, GAMMA-AI.",
-		"urlSite": "https://rafikosaure.github.io/gamma-ai-presentation",
-		"urlRepo": "https://github.com/Rafikosaure/gamma-ai-presentation"
-	},
-	{
-		"id": "f72a452f",
-		"shortTitle": "Site de notation de livres en Node.js/Express",
-		"title": "Mon Vieux Grimoire, site de référencement et de notation de livres",
-		"cover": "Images/mon_vieux_grimoire.webp",
-		"pictures": [
-			"Images/images_projets/mon_vieux_grimoire/image_01_mon_vieux_grimoire.webp",
-			"Images/images_projets/mon_vieux_grimoire/image_02_mon_vieux_grimoire.webp",
-			"Images/images_projets/mon_vieux_grimoire/image_03_mon_vieux_grimoire.webp",
-			"Images/images_projets/mon_vieux_grimoire/image_04_mon_vieux_grimoire.webp",
-			"Images/images_projets/mon_vieux_grimoire/image_05_mon_vieux_grimoire.webp",
-			"Images/images_projets/mon_vieux_grimoire/image_06_mon_vieux_grimoire.webp",
-			"Images/images_projets/mon_vieux_grimoire/image_07_mon_vieux_grimoire.webp"
-		],
-		"description": "Le site Mon Vieux Grimoire est l'idée d'une association de libraires lillois désirant un site Web où des lecteurs pourraient partager leurs tendances et leurs avis sur des ouvrages. Qu'à cela ne tienne : Mon Vieux Grimoire permet donc de créer un compte utilisateur, d'ajouter des livres à la base de données et, bien sûr, de leur attribuer une note sur 5 visible par l'ensemble des internautes. La partie frontend de ce projet est l'œuvre d'un ami. Ma tâche a été de mettre en place le backend du site, c'est à dire l'ensemble des routes permettant les fonctionnalités d'inscription et de connexion au site, ainsi que les fonctionnalités de lecture, de création, de mise à jour, de suppression de livres, d'attribution des notes et de calcul des moyennes des notes. J'ai également eu avec ce projet l'opportunité de m'initier au GreenIT en travaillant sur les images utilisées pour les couvertures des livres (redimensionnement et export vers le format .webp). Enfin, j'ai également mis en place tout le système de sécurité de la base de données et du serveur. Grâce à une documentation très efficace et à l'expérience acquise en NodeJs, ce projet ne m'a pas causé de vraie difficulté, malgré son apparente complexité.",
-		"technologies": "NODE.JS, EXPRESS, MONGODB ATLAS, MONGOOSE, JSONWEBTOKEN, BCRYPT, MULTER, SHARP.",
-		"urlSite": "#",
-		"urlRepo": "https://github.com/Rafikosaure/mon-vieux-grimoire-notation-de-livres"
-	},
-	{
 		"id": "0979876d",
 		"shortTitle": "Site d'une photographe freelance (optimisation SEO)",
 		"title": "Site de Nina Carducci, photographe freelance",
