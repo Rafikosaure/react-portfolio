@@ -9,6 +9,7 @@
     --color3: rgba(0, 0, 0, 0.9);
     --color4: black;
     --color5: white;
+    --color6: #191919;
 }
 
 .dark {
@@ -168,28 +169,95 @@ a.contact-button-portfolio {
     padding-bottom: 100px;
 }
 
-div.section-grise1 {
-    background: url(../Images/triangle2white.svg) no-repeat center bottom -1px/100%;
-    background-color: var(--color2);
+div.section-grise1, div.section-grise1-dark {
+    // background: url(../Images/triangle2white.svg) no-repeat center bottom -1px/100%;
     padding-bottom: 120px;
+    position: relative;
+    z-index: 1;
 }
 
-div.section-grise1-dark {
-    background: url(../Images/triangle2black.svg) no-repeat center bottom -1px/100%;
-    background-color: var(--color3);
-    padding-bottom: 120px;
+.section-grise1-overlay, .section-grise1-overlay-dark {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 0, 100% 30%, 0 100%, 0 0%, 0 0);
 }
 
-div.section-grise2 {
-    background: url(../Images/triangle1white.svg) no-repeat center top/100%;
+.section-grise1-overlay {
     background-color: var(--color2);
+}
+
+.section-grise1-overlay-dark {
+    background-color: var(--color6);
+}
+
+div.section-grise2, div.section-grise2-dark {
+    z-index: -1;
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    // background: url(../Images/triangle1white.svg) no-repeat center top/100%;
+    // background-color: var(--color2);
+}
+
+// div.section-grise2 {
+//     background-color: var(--color2);
+// }
+
+// div.section-grise2-dark {
+    // background-color: var(--color3);
+    // background: url(../Images/triangle1black.svg) no-repeat center top/100%;
+    // padding-top: 120px;
+// }
+
+.section-grise2-overlay, .section-grise2-overlay-dark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 30%);
+}
+
+.section-grise2-overlay {
+    background-color: var(--color2);
+}
+
+.section-grise2-overlay-dark {
+    background-color: var(--color6);
+}
+
+div.section-grise3, div.section-grise3-dark {
+    position: relative;
     padding-top: 120px;
 }
 
-div.section-grise2-dark {
-    background: url(../Images/triangle1black.svg) no-repeat center top/100%;
-    background-color: var(--color3);
-    padding-top: 120px;
+div.section-grise3 {
+    background-color: var(--color2);
+}
+
+div.section-grise3-dark {
+    background-color: var(--color6);
+}
+
+.section-grise3-overlay, .section-grise3-overlay-dark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 0 10%, 100% 0);
+}
+
+.section-grise3-overlay {
+    background-color: var(--color5);
+}
+
+.section-grise3-overlay-dark {
+    background-color: var(--color4);
 }
 
 .section-top {
@@ -542,7 +610,39 @@ img.portfolio {
 
 .project-section {
     min-height: fit-content;
-    height: 290px;
+    height: 320px;
+}
+
+.section-grise-project, .section-grise-project-dark {
+    // padding-bottom: 120px;
+    position: relative;
+    z-index: 1;
+}
+
+.section-grise-project {
+    background-color: var(--color5);
+}
+
+.section-grise-project-dark {
+    background-color: var(--color4)
+} 
+
+.section-grise-project-overlay, .section-grise-project-overlay-dark {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 0%, 0 0);
+}
+
+.section-grise-project-overlay {
+    background-color: var(--color2);
+}
+
+.section-grise-project-overlay-dark {
+    background-color: var(--color6);
 }
 
 .portfolio-project-content-wrapper {
@@ -647,8 +747,26 @@ img.portfolio {
         padding-bottom: 150px;
     }
 
-    div.section-grise1 {
-        padding-bottom: 40px;
+    div.section-grise1, div.section-grise1-dark {
+        padding-bottom: 60px;
+    }
+
+    .section-grise1-overlay, .section-grise1-overlay-dark {
+        clip-path: polygon(100% 0, 100% 60%, 0 100%, 0 0%, 0 0);
+    }
+
+    div.section-grise2, div.section-grise2-dark {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .section-grise2-overlay, .section-grise2-overlay-dark {
+        clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 20%);
+        z-index: -1;
+    }
+
+    .section-grise3-overlay, .section-grise3-overlay-dark {
+        clip-path: polygon(0 0, 0 4%, 100% 0);
     }
     
     h2 {
@@ -831,8 +949,12 @@ img.portfolio {
     }
 
     .project-section {
-        height: 200px;
+        height: 270px;
         overflow-y: hidden;
+    }
+
+    .section-grise-project-overlay, .section-grise-project-overlay-dark {
+        clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 0%, 0 0);
     }
 
     .switch-portfolio {

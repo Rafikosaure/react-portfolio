@@ -36,6 +36,7 @@ function Home() {
             <main className={colorMainMode}>
                 {/* SECTION GRISE 1 */}
                 <div className={`section section-grise1${colorElementMode}`}>
+                    <div className={`section-grise1-overlay${colorElementMode}`} />
                     <div className="separateur" />
                     <p>
                         Je développe votre <b>projet de site WEB</b>
@@ -69,13 +70,12 @@ function Home() {
                 </div>
                 {/* SECTION GRISE 2 */}
                 <div className={`section section-grise2${colorElementMode}`}>
+                    <div className={`section-grise2-overlay${colorElementMode}`} />
                     <div ref={revealCitation} className={`${'div-citation'} ${'reveal-text'} ${myCitationIsVisible ? 'reveal-text-visible': ''}`}>
                         {citation}
                     </div>
                 </div>
-                {/* SECTION GRISE 3 */}
-                <div className={`section section-grise1${colorElementMode}`}>
-                </div>
+                
                 {/* SECTION BLANCHE 2 */}
                 <div className="section section-top">
 
@@ -90,8 +90,9 @@ function Home() {
                     <SkillsList data={skills[6]} animDirection='reverse' />
                 </div>
                 
-                {/* SECTION GRISE 4 */}
-                <div ref={myPortfolio} className={`section section-grise2${colorElementMode} section-top`}>
+                {/* SECTION GRISE 3 */}
+                <div ref={myPortfolio} className={`section section-grise3${colorElementMode} section-top`}>
+                    <div className={`section-grise3-overlay${colorElementMode}`} />
                     <div className={`${'reveal'} ${myPortfolioIsVisible ? 'reveal-visible' : ''}`}>
                         <h2 id='portfolio'>Portfolio</h2>
                         <div className="projects-cardslist">

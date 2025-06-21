@@ -2,7 +2,7 @@
 	{
 		"id": "a4de3ncz",
 		"shortTitle": "Wiki sur Star-Wars, avec forum, vidéothèque et e-boutique",
-		"title": "Star-Wars Encyclopedia, documentation et débats sur Star Wars, entre autres",
+		"title": "Star-Wars Encyclopedia, site pour les fans de Star Wars",
 		"cover": "Images/swencyclo.webp",
 		"description": "Star Wars Encyclopedia est un site interactif combinant un wiki, un forum de discussion, une vidéothèque et une boutique en ligne. Ce site permet aux fans de Star Wars d'explorer, contribuer et échanger sur l'univers de la saga tout en s'amusant. Ce projet personnel a été réalisé entièrement en autonomie. Le site est responsive, offrant une expérience optimale sur tous les appareils. Les utilisateurs du forum peuvent créer un compte, gérer leur profil, être notifié par email en cas de mention. Le forum permet de créer des discussions, publier des posts ou les commenter, liker les contenus... Le Wiki se base sur une API pour la gestion des articles, tandis que la vidéothèque propose d'explorer les films et séries de la saga. Enfin, la boutique en ligne offre une perspective ludique puisqu'elle simule l'achat d'artefacts en lien avec la saga. Le frontend utilise React, le backend Node.js et Express, avec des tests automatisés et un déploiement via GitHub Actions et Vercel.",
 		"technologies": "REACT, REDUX, NODE.JS, EXPRESS, MONGODB, NODEMAILER, JEST, DOCKER.",
@@ -32,7 +32,7 @@
 	{
 		"id": "2cf259e1",
 		"shortTitle": "API Rest pour site e-commerce en Next.js",
-		"title": "API Rest proposant des artefacts Star Wars pour site e-commerce",
+		"title": "API Rest proposant des artefacts issus de Star Wars",
 		"cover": "Images/star_wars_artefacts_api.webp",
 		"description": "Cette API Rest, un projet personnel, a été conçue dans le but de fournir à un site e-commerce un éventail de produits appartenant à l'univers de la saga Star Wars, bien que d'autres usages de cette API soient tout à fait possibles. Les produits sont des artefacts issus du Canon, de l'univers Legends, ou bien ont été inventés à partir du lore. Les images de l'API ont été majoritairement générés par IA, tandis que la technologie Next.js a été mise en oeuvre pour gérer les routes de l'API. Ce projet est l'un de mes tout premiers avec Next.js, et il est également ma première API Rest : c'est donc un projet qui m'a été riche d'enseignements.",
 		"technologies": "DALL-E, Next.js, SASS.",

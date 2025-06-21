@@ -22,7 +22,8 @@ function Project() {
     return (
         <div className={`${colorMainMode}`}>
             {/* SECTION GRISE TITRE */}
-            <div className={`section section-grise1${colorElementMode} project-section`}>
+            <div className={`section section-grise-project${colorElementMode} project-section`}>
+                <div className={`section-grise-project-overlay${colorElementMode}`} />
                 <a className={`portfolio-back portfolio-back-color${colorElementMode}`} href="/">
                     Retour
                 </a>
