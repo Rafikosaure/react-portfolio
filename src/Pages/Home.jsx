@@ -2,6 +2,7 @@ import '../Styles/CommonStyles.scss'
 import Profile2 from '../Images/profile2.webp'
 import LinkedIn from '../Images/linkedin.svg'
 import CV_Icon from '../Images/cv.png'
+import CV_OnlineIcon from '../Images/cv_online.png'
 import GithubIcon from '../Images/github.svg'
 import CV_File from '../CV/CV_BenSadi_Rafik.pdf'
 import Card from '../Components/Card'
@@ -61,8 +62,9 @@ function Home() {
                             <div className='div-presentation-links'>
                                 <Link className='presentation-link' to="https://www.linkedin.com/in/rafikbensadi" target="_blank"
                                 rel="noopener noreferrer"><img className='list-icon' src={LinkedIn} alt='Icone LinkedIn'/>Consulter mon profil LinkedIn</Link>
-                                <a className='presentation-link' target='_blank' rel='noopener noreferrer' href={CV_File}><img className='list-icon' src={CV_Icon} alt='Icone CV'/>Consulter mon Curriculum Vitae</a>
                                 <Link className='presentation-link' to="https://github.com/Rafikosaure" target="_blank"><img className='list-icon' src={GithubIcon} alt="Icone Github" />Consulter mon compte Github</Link>
+                                <a className='presentation-link' target='_blank' rel='noopener noreferrer' href={CV_File}><img className='list-icon' src={CV_Icon} alt='Icone CV'/>Consulter mon Curriculum Vitae</a>
+                                <Link className='presentation-link' to="https://bold.pro/my/rafikbensadi" target="_blank"><img className='list-icon' src={CV_OnlineIcon} alt="Icone CV en ligne" />Consulter mon parcours détaillé</Link>
                             </div>
                             
                         </div>
